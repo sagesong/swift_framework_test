@@ -1,0 +1,6 @@
+framework module Pods_padashiDemo {
+  umbrella header "Pods-padashiDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
