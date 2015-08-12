@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AD00F7B9D753E3022617C0C0"
+               BlueprintIdentifier = "1A10A321366080B00EE8A84C"
                BuildableName = "Pods_PDSCamera.framework"
                BlueprintName = "Pods-PDSCamera"
                ReferencedContainer = "container:Pods.xcodeproj">

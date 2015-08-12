@@ -11,5 +11,15 @@ import AVFoundation
 
 @objc
 public class CameraManage: NSObject {
-   
+    var captureSession : AVCaptureSession?
+    
+    
+    
+    public func setupCaptureSession(){
+        captureSession = AVCaptureSession()
+        if (captureSession?.canSetSessionPreset(AVCaptureSessionPreset1280x720) != nil)
+        {
+            captureSession?.sessionPreset = AVCaptureSessionPreset1280x720
+        }
+    }
 }

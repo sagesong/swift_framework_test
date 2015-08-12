@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double PDSCameraVersionNumber;
 FOUNDATION_EXPORT const unsigned char PDSCameraVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PDSCamera/PublicHeader.h>
-
-
+//#import <PDSCamera/PDSCamera-Swift.h>
+//import PDSCamera.CameraView

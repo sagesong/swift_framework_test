@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320433F08ECAB5BBE94E4B4F /* Pods_PDSCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A7EA4C7001DC2ADF8A318A /* Pods_PDSCamera.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D6023CEB1B7B5BB000B62674 /* CameraTopView.swift in Headers */ = {isa = PBXBuildFile; fileRef = D686C5111B79A71400AA0305 /* CameraTopView.swift */; };
 		D686C3FD1B798C1400AA0305 /* PDSCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = D686C3FC1B798C1400AA0305 /* PDSCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D686C4031B798C1400AA0305 /* PDSCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D686C3F71B798C1400AA0305 /* PDSCamera.framework */; };
 		D686C40A1B798C1400AA0305 /* PDSCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686C4091B798C1400AA0305 /* PDSCameraTests.swift */; };
@@ -112,12 +114,15 @@
 		D686C5051B79965D00AA0305 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = D686C4A21B79965D00AA0305 /* Contents.json */; };
 		D686C5061B79965D00AA0305 /* slider_whiterline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D686C4A31B79965D00AA0305 /* slider_whiterline@2x.png */; };
 		D686C5071B79965D00AA0305 /* slider_whiterline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D686C4A41B79965D00AA0305 /* slider_whiterline@3x.png */; };
-		D686C5081B7996D100AA0305 /* CameraManage.swift in Headers */ = {isa = PBXBuildFile; fileRef = D686C4131B79940C00AA0305 /* CameraManage.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		D686C5091B7996D100AA0305 /* CameraViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = D686C4171B79950900AA0305 /* CameraViewController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		D686C5081B7996D100AA0305 /* CameraManage.swift in Headers */ = {isa = PBXBuildFile; fileRef = D686C4131B79940C00AA0305 /* CameraManage.swift */; };
+		D686C5091B7996D100AA0305 /* CameraViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = D686C4171B79950900AA0305 /* CameraViewController.swift */; };
 		D686C50B1B79979900AA0305 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686C50A1B79979900AA0305 /* CameraView.swift */; };
 		D686C50E1B79A47F00AA0305 /* CameraOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686C50D1B79A47F00AA0305 /* CameraOverlayView.swift */; };
 		D686C5101B79A56100AA0305 /* CameraBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686C50F1B79A56100AA0305 /* CameraBottomView.swift */; };
 		D686C5121B79A71400AA0305 /* CameraTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686C5111B79A71400AA0305 /* CameraTopView.swift */; };
+		D686C5171B79D69700AA0305 /* CameraView.swift in Headers */ = {isa = PBXBuildFile; fileRef = D686C50A1B79979900AA0305 /* CameraView.swift */; };
+		D686C5181B79D69700AA0305 /* CameraOverlayView.swift in Headers */ = {isa = PBXBuildFile; fileRef = D686C50D1B79A47F00AA0305 /* CameraOverlayView.swift */; };
+		D686C5191B79D69700AA0305 /* CameraBottomView.swift in Headers */ = {isa = PBXBuildFile; fileRef = D686C50F1B79A56100AA0305 /* CameraBottomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +136,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60A7EA4C7001DC2ADF8A318A /* Pods_PDSCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDSCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2947C1EBAFB0F93AB0DCE5 /* Pods-PDSCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDSCamera.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-PDSCamera/Pods-PDSCamera.debug.xcconfig"; sourceTree = "<group>"; };
 		D686C3F71B798C1400AA0305 /* PDSCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PDSCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D686C3FB1B798C1400AA0305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D686C3FC1B798C1400AA0305 /* PDSCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDSCamera.h; sourceTree = "<group>"; };
@@ -243,6 +250,7 @@
 		D686C50D1B79A47F00AA0305 /* CameraOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOverlayView.swift; sourceTree = "<group>"; };
 		D686C50F1B79A56100AA0305 /* CameraBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraBottomView.swift; sourceTree = "<group>"; };
 		D686C5111B79A71400AA0305 /* CameraTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTopView.swift; sourceTree = "<group>"; };
+		ED0DF07A00252BC1AFA1213F /* Pods-PDSCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDSCamera.release.xcconfig"; path = "../Pods/Target Support Files/Pods-PDSCamera/Pods-PDSCamera.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D686C4161B79942000AA0305 /* AVFoundation.framework in Frameworks */,
+				320433F08ECAB5BBE94E4B4F /* Pods_PDSCamera.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +274,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045D5209A82C75134B0F9FB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC2947C1EBAFB0F93AB0DCE5 /* Pods-PDSCamera.debug.xcconfig */,
+				ED0DF07A00252BC1AFA1213F /* Pods-PDSCamera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DC6BEAF4D7D9F8D47E1A253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60A7EA4C7001DC2ADF8A318A /* Pods_PDSCamera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D686C3ED1B798C1400AA0305 = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +298,8 @@
 				D686C3F91B798C1400AA0305 /* PDSCamera */,
 				D686C4061B798C1400AA0305 /* PDSCameraTests */,
 				D686C3F81B798C1400AA0305 /* Products */,
+				045D5209A82C75134B0F9FB7 /* Pods */,
+				9DC6BEAF4D7D9F8D47E1A253 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -722,6 +750,10 @@
 				D686C3FD1B798C1400AA0305 /* PDSCamera.h in Headers */,
 				D686C5081B7996D100AA0305 /* CameraManage.swift in Headers */,
 				D686C5091B7996D100AA0305 /* CameraViewController.swift in Headers */,
+				D686C5171B79D69700AA0305 /* CameraView.swift in Headers */,
+				D686C5181B79D69700AA0305 /* CameraOverlayView.swift in Headers */,
+				D6023CEB1B7B5BB000B62674 /* CameraTopView.swift in Headers */,
+				D686C5191B79D69700AA0305 /* CameraBottomView.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -732,10 +764,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D686C40D1B798C1400AA0305 /* Build configuration list for PBXNativeTarget "PDSCamera" */;
 			buildPhases = (
+				A88CFEFF1131FA0CF82FFF50 /* Check Pods Manifest.lock */,
 				D686C3F21B798C1400AA0305 /* Sources */,
 				D686C3F31B798C1400AA0305 /* Frameworks */,
 				D686C3F41B798C1400AA0305 /* Headers */,
 				D686C3F51B798C1400AA0305 /* Resources */,
+				5383406C60067D26EA88B6E6 /* Embed Pods Frameworks */,
+				154A3EF2B6D0C016CF18816F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -915,6 +950,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		154A3EF2B6D0C016CF18816F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-PDSCamera/Pods-PDSCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5383406C60067D26EA88B6E6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-PDSCamera/Pods-PDSCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A88CFEFF1131FA0CF82FFF50 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D686C3F21B798C1400AA0305 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1039,8 +1122,10 @@
 		};
 		D686C40E1B798C1400AA0305 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC2947C1EBAFB0F93AB0DCE5 /* Pods-PDSCamera.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1056,14 +1141,17 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "-l\"Pods-SnapKit\"";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D686C40F1B798C1400AA0305 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0DF07A00252BC1AFA1213F /* Pods-PDSCamera.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1079,6 +1167,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "-l\"Pods-SnapKit\"";
 			};
 			name = Release;
 		};
@@ -1131,6 +1220,7 @@
 				D686C40F1B798C1400AA0305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D686C4101B798C1400AA0305 /* Build configuration list for PBXNativeTarget "PDSCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -1139,6 +1229,7 @@
 				D686C4121B798C1400AA0305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

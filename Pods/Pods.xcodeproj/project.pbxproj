@@ -7,485 +7,485 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		059639447668F63BCE17D1B1 /* Pods-padashiDemo-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E32410508DEFD54FED87B8BD /* Pods-padashiDemo-SwiftyJSON-dummy.m */; };
-		075A10745F6A251F22E17956 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5897A6BDA26A97A043261803 /* Manager.swift */; };
-		0A5AA095C826436C8026598C /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD94A386F2B7CAB2E3A842A0 /* ConstraintItem.swift */; };
-		139C843B38A8A3B5A91E3FAA /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CBF81E6B4958BD1A068100 /* ResponseSerialization.swift */; };
-		1411EE63507E9BEB67E4D2A2 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD22A6FCC03E0E944B19E4F /* ViewController+SnapKit.swift */; };
-		1805CCEBD8F152ACBDB1979B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6719276275877A83FDA15225 /* Foundation.framework */; };
-		18A41D4CF1161300A5F55C72 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8374A3E2F558DD583C7EEFD9 /* ConstraintMaker.swift */; };
-		19C321A905F9D9E68858C56F /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6AF818D08952E9B2E9957 /* ConstraintRelation.swift */; };
-		20D46FF4DA0F89E06D3C8BC1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6483EE12548530908FE31FFE /* SwiftyJSON.swift */; };
-		252A15CD14A345E7D1880842 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538064E07BE8376ABE101AB0 /* LayoutConstraint.swift */; };
-		254EAC12A70D05DE36EEB7CA /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76EAD7CA4325A49CAE10618 /* EdgeInsets.swift */; };
-		278BD7D462A18CDC753EB91A /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8374A3E2F558DD583C7EEFD9 /* ConstraintMaker.swift */; };
-		289AA798CCC0C2AA4EE61825 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30709E1032D4357D69A48A6B /* Constraint.swift */; };
-		28E8CA213D2E38D3766F441A /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1ABDE3CF166160AD787E28 /* Debugging.swift */; };
-		2A29B210AE887115FF288722 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6719276275877A83FDA15225 /* Foundation.framework */; };
-		2B809EB0A47867ED37258CB1 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A6DAF6EC4F78D856BC8B8 /* View+SnapKit.swift */; };
-		343ECA66F3FB2EE37EBA2BC0 /* Pods-PDSCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F465050097CE5E60254165C /* Pods-PDSCamera-dummy.m */; };
-		34750B0740251ACE7E8EE134 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15EEA7CF2F7B71850671D72 /* MultipartFormData.swift */; };
-		3CC8370645136E335855FF7D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A1C67825ECAC3A1D3D45F1 /* Request.swift */; };
-		596FD5AA3458C8F2D051E4C8 /* Pods-padashiDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0E331C75C0F41C5552B874 /* Pods-padashiDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D3C1D5C300123C7651DBB31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6719276275877A83FDA15225 /* Foundation.framework */; };
-		5D49D448242ECBD9C7BD129A /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D419D94BC8233810CAC39B1 /* SnapKit.swift */; };
-		60DCA997F21A25BA07A195E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6719276275877A83FDA15225 /* Foundation.framework */; };
-		6128EA8C31FBE2A7D925C95C /* Pods-padashiDemo-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3624DF556E1ADFB03A83AB /* Pods-padashiDemo-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67160F52013FAC12EF5917BA /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A3DE6CE0E3AA4823F6801F /* ConstraintDescription.swift */; };
-		68908523C2A262324EBD0E97 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6621AB3B26496485E641A7 /* Upload.swift */; };
-		69A881A83A639F040FCF3A3D /* Pods-padashiDemo-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 543E2C6FD699B89AAC742BC1 /* Pods-padashiDemo-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B6D3FFFB4CB4A1FA0A7662 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76EAD7CA4325A49CAE10618 /* EdgeInsets.swift */; };
-		7178D3AB8EEC3082E5DCAE91 /* Pods-PDSCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D621D37E400505CAED27842 /* Pods-PDSCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73737BE878E3C0FE19E70DB6 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6AF818D08952E9B2E9957 /* ConstraintRelation.swift */; };
-		7D00B803E07FDC999511E06A /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD22A6FCC03E0E944B19E4F /* ViewController+SnapKit.swift */; };
-		833FF13830974016D398811F /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A6DAF6EC4F78D856BC8B8 /* View+SnapKit.swift */; };
-		893A376320888A3D261E73C6 /* Pods-padashiDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C2A1FB84FA591958D0BDC8 /* Pods-padashiDemo-dummy.m */; };
-		8970FF7F0A79EA0B2D5C0DB4 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AA39F240A73B6D9AC17F4B /* ConstraintAttributes.swift */; };
-		8A0D667620574D88C3BF0DFC /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF48704642E42E4FAC718B7 /* ParameterEncoding.swift */; };
-		97791DB175D7079E1BBE339E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE2413E0BED4C33D9611E2 /* Alamofire.swift */; };
-		9A6436D77E2E8D50C4D6A2B4 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30709E1032D4357D69A48A6B /* Constraint.swift */; };
-		A0642EE07D09DE9F231280E9 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538064E07BE8376ABE101AB0 /* LayoutConstraint.swift */; };
-		A9D8FBDED7A012CFA5E2A1E5 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1ABDE3CF166160AD787E28 /* Debugging.swift */; };
-		AB439EA2CE99EEC6C69C71CC /* Pods-PDSCamera-SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFE04DC29F45219E92D583 /* Pods-PDSCamera-SnapKit-dummy.m */; };
-		AC4857C886AC3B6F80D009C5 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD94A386F2B7CAB2E3A842A0 /* ConstraintItem.swift */; };
-		B2725E7D6985F90E9E2A0F45 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A176BD6548EE9AE093EF6 /* Validation.swift */; };
-		C3D8803BC7939EFB996287E6 /* Pods-padashiDemo-SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6A9AC41930D4CD368783E /* Pods-padashiDemo-SnapKit-dummy.m */; };
-		D01A6B9CA3C0D6B1046D189B /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070FE4820F031C090F060F2 /* Download.swift */; };
-		D2CAF334C5ADF9CA9987A65A /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AC70F0A166F32764A5983F /* ServerTrustPolicy.swift */; };
-		D453C44DC57B801C0D4BD674 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6719276275877A83FDA15225 /* Foundation.framework */; };
-		DFCE767FF4BA8E41009097ED /* Pods-PDSCamera-SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD54EB2D316860100E1BAAA6 /* Pods-PDSCamera-SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E082F67C87252A0C3B5CC073 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D419D94BC8233810CAC39B1 /* SnapKit.swift */; };
-		E36E850979F849C11432AD2A /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AA39F240A73B6D9AC17F4B /* ConstraintAttributes.swift */; };
-		E6E0D627C9C67E3B9C0571BA /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A3DE6CE0E3AA4823F6801F /* ConstraintDescription.swift */; };
-		EE4650779E7B3B14D46DF40B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6719276275877A83FDA15225 /* Foundation.framework */; };
-		F153C799408C73DB3F140A2B /* Pods-padashiDemo-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F470AD5095DE8D950189465 /* Pods-padashiDemo-Alamofire-dummy.m */; };
-		FF3B063A459CEE7F22A6A3B4 /* Pods-padashiDemo-SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67EA536F3D2B6D4EA5685472 /* Pods-padashiDemo-SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		001F35BA65D065E2F05B179A /* Pods-padashiDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC078FD4CA2A3BE01EDB57F1 /* Pods-padashiDemo-dummy.m */; };
+		0335ED76D50F3B21AAF53330 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBB523D5E46FD19F727E8DF /* Constraint.swift */; };
+		0DD4F0B921FF9174B8442540 /* Pods-PDSCamera-SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE8FE26676BE6E738495775 /* Pods-PDSCamera-SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1547F871600580031B25A11B /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC9D3BA18A89AB1020C528 /* ConstraintItem.swift */; };
+		180981A072CDD402907CCB68 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9994D18B6F13F7C06A635BB7 /* SnapKit.swift */; };
+		1E290FEC38EC5230278008B9 /* Pods-padashiDemo-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6061A2EC2FC2B5A82B2960 /* Pods-padashiDemo-SwiftyJSON-dummy.m */; };
+		1EC4DC4E9B12EA40CE1B4ABD /* Pods-padashiDemo-SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F05DE917F4FFBA5F64B783 /* Pods-padashiDemo-SnapKit-dummy.m */; };
+		1FD2BA1F9B9EF98D05A0A7CE /* Pods-padashiDemo-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A540299A5EB189F360596336 /* Pods-padashiDemo-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238BE5D35DA1F6972AA8B339 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C11EC0B23835BD5E8A92A /* EdgeInsets.swift */; };
+		432E0D0E142C13DE99F520A9 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6DB509761C734E4586DDF3 /* Debugging.swift */; };
+		44E9B2C3E7D6CE7C667F3F51 /* Pods-padashiDemo-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6170457F9A6369664640D05F /* Pods-padashiDemo-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		499C26C25249170DB5B721A1 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9261D0EF922848632C85B /* ViewController+SnapKit.swift */; };
+		5491BA327AB273DF768ED4E8 /* Pods-padashiDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39314D39DBF8281755671BEC /* Pods-padashiDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5838B7EB2A92C0BF45851C39 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD8AC453279CE72EC3913F /* LayoutConstraint.swift */; };
+		5FE6D129A070F6AD080F40C4 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED4F7952E71915E0E4A2F6 /* ConstraintDescription.swift */; };
+		605530C01B632F0FA49B97E6 /* Pods-PDSCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FF984E0431300B97FFDEE1 /* Pods-PDSCamera-dummy.m */; };
+		61DA301926043B24F352B341 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75B69C599E24B8CC9FA8B2 /* ConstraintMaker.swift */; };
+		6991831E409924072007C53B /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133A633BB62EEF36A2A6C30A /* Alamofire.swift */; };
+		7123E95DF6C8A35A1FFEDF88 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0AD94B6F3D106010093B38 /* Download.swift */; };
+		736A5297AD0BE68ACFEB7CA3 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9219854DCA01FB5B66C707 /* ConstraintRelation.swift */; };
+		8092B403ABED3670836E275F /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75B69C599E24B8CC9FA8B2 /* ConstraintMaker.swift */; };
+		819B058FF1B4ED723DE32731 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9219854DCA01FB5B66C707 /* ConstraintRelation.swift */; };
+		88DB67EDFE3ACD62FA9656DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C926A96071D5AC7D4BFE77E7 /* Foundation.framework */; };
+		9358DAEABD102544E9A9AF25 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBB523D5E46FD19F727E8DF /* Constraint.swift */; };
+		93E094EBC2AEA4AB08CEAE6C /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9994D18B6F13F7C06A635BB7 /* SnapKit.swift */; };
+		9A889517DC2327002E1FC931 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C926A96071D5AC7D4BFE77E7 /* Foundation.framework */; };
+		A4A1D08C02318C4D740CCDAA /* Pods-PDSCamera-SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5067BAF2AEA105051859A4B4 /* Pods-PDSCamera-SnapKit-dummy.m */; };
+		A83B0D7DFA05106EAEC2E919 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE81C423C0591F35EDE15522 /* View+SnapKit.swift */; };
+		A97C0B91B51831D6852E31B0 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4111C7F91C2AD106AA0CFDC2 /* ConstraintAttributes.swift */; };
+		B115C52CF60093479AB18FE5 /* Pods-padashiDemo-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 991BC390FF76390666F36E24 /* Pods-padashiDemo-Alamofire-dummy.m */; };
+		B1945FE2D9680F5191765BCD /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD8AC453279CE72EC3913F /* LayoutConstraint.swift */; };
+		B490B21C4D51C88461E1410D /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6DB509761C734E4586DDF3 /* Debugging.swift */; };
+		B4ECC24F16D347E677FED20C /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC9D3BA18A89AB1020C528 /* ConstraintItem.swift */; };
+		B4F18DBBAC0031A36C566152 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2EBDC0667746D2B283B17C /* ResponseSerialization.swift */; };
+		BAFC0CFA393D54FC2BCF1F21 /* Pods-PDSCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E09D073FFF0EEC29539EF03 /* Pods-PDSCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB093FD0B2BCFBFBBD63D520 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CE4CF56120F96E46FFA9E /* MultipartFormData.swift */; };
+		BC6CC70438F576B7B1549D82 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CE7ADC4F0C533B1482B75 /* ParameterEncoding.swift */; };
+		C1533608B746DE2FA87177A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C926A96071D5AC7D4BFE77E7 /* Foundation.framework */; };
+		C26410D13249112CF7ADB5F1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7CE6077A3980D2C33C6872 /* SwiftyJSON.swift */; };
+		C6354A720AF0994B2918A33D /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D171E53E2001F09810DB8B2 /* ServerTrustPolicy.swift */; };
+		CB64DF798DE73629FB8E7B7A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FB76C01F4814A1EE8F2CA /* Request.swift */; };
+		CB922CD9D313660A08291A36 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9261D0EF922848632C85B /* ViewController+SnapKit.swift */; };
+		D7CAE3AF90E4B3B22E371326 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4111C7F91C2AD106AA0CFDC2 /* ConstraintAttributes.swift */; };
+		DB83A5E5FA03F7B9EDF4572A /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED4F7952E71915E0E4A2F6 /* ConstraintDescription.swift */; };
+		E29581D9E1DEDF4233FA4575 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083640C963F9AEA173DBA011 /* Upload.swift */; };
+		EA4DFAE929A85A543B6DC1F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C926A96071D5AC7D4BFE77E7 /* Foundation.framework */; };
+		EDA722753159D500E488ACE2 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C11EC0B23835BD5E8A92A /* EdgeInsets.swift */; };
+		EEB97E0D2A330E846788E4E0 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE81C423C0591F35EDE15522 /* View+SnapKit.swift */; };
+		F516BD2FB75C49E8CF7B53B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C926A96071D5AC7D4BFE77E7 /* Foundation.framework */; };
+		F742C10BAD69F9E6A1B716ED /* Pods-padashiDemo-SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E269A5A49A8598B59894C6 /* Pods-padashiDemo-SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8146F22FA71B42679D37752 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BEFA97DEC57A28551CC243 /* Manager.swift */; };
+		FD0C8AB315E4E9800B1D06C9 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A817A60CEE083ECFB3C8ACCD /* Validation.swift */; };
+		FF560B5097E107DDA3F53DF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C926A96071D5AC7D4BFE77E7 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		714076D3F07AF5CCB8E34F9C /* PBXContainerItemProxy */ = {
+		49B4871BFB67F34F23EA53A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4241C112EA968E7B7DD5FB42 /* Project object */;
+			containerPortal = 81AFC95B2B9194B26329DDD9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 821DFEB4B1578936F5FE23C3;
-			remoteInfo = "Pods-PDSCamera-SnapKit";
-		};
-		7E233B89FA82EFA2CE4739FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4241C112EA968E7B7DD5FB42 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9F95C3C36A3CACA478C0D3D5;
-			remoteInfo = "Pods-padashiDemo-SnapKit";
-		};
-		AFF01DFA65157675A5881915 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4241C112EA968E7B7DD5FB42 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0827FE217111300ABA609281;
+			remoteGlobalIDString = 08B598C80EDFBB18C9728849;
 			remoteInfo = "Pods-padashiDemo-Alamofire";
 		};
-		B80444370CFE607B1B73F6DD /* PBXContainerItemProxy */ = {
+		4C0FB6D087926D2B98757973 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4241C112EA968E7B7DD5FB42 /* Project object */;
+			containerPortal = 81AFC95B2B9194B26329DDD9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4749E9ED88B2AEA90762729E;
+			remoteGlobalIDString = FEE4BB24B858AF7E1394B028;
+			remoteInfo = "Pods-PDSCamera-SnapKit";
+		};
+		951BDD2EC16202DDABA97B65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81AFC95B2B9194B26329DDD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E143F3009107241473A0DBB;
+			remoteInfo = "Pods-padashiDemo-SnapKit";
+		};
+		B0782F9B4DE4F29620810EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81AFC95B2B9194B26329DDD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2BDC7477F8693E88DE60FF;
 			remoteInfo = "Pods-padashiDemo-SwiftyJSON";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C2A1FB84FA591958D0BDC8 /* Pods-padashiDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-padashiDemo-dummy.m"; sourceTree = "<group>"; };
-		09C55CDAE735E9F73B8D04E7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0B531EA3625286F727E0089A /* Pods-padashiDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-padashiDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		0F34A562DFA9F14C590ED74B /* Pods-padashiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-padashiDemo.release.xcconfig"; sourceTree = "<group>"; };
-		1011E0344DB2E42DC6FF2A0A /* Pods_PDSCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDSCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		10FF6F704D46B5B12B262287 /* Pods-PDSCamera-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDSCamera-environment.h"; sourceTree = "<group>"; };
-		13D727687ED0C457344889F3 /* Pods-padashiDemo-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-padashiDemo-Alamofire.modulemap"; sourceTree = "<group>"; };
-		1450C8A3BD091558F3CE9684 /* Pods-padashiDemo-SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-padashiDemo-SnapKit-prefix.pch"; path = "../Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit-prefix.pch"; sourceTree = "<group>"; };
-		1D6621AB3B26496485E641A7 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		1D9A176BD6548EE9AE093EF6 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		1EC721F8C1F2863AC16E0EE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F465050097CE5E60254165C /* Pods-PDSCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDSCamera-dummy.m"; sourceTree = "<group>"; };
-		29377FA8246C5FAAC1893C60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C0E331C75C0F41C5552B874 /* Pods-padashiDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-padashiDemo-umbrella.h"; sourceTree = "<group>"; };
-		2D621D37E400505CAED27842 /* Pods-PDSCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDSCamera-umbrella.h"; sourceTree = "<group>"; };
-		2F5536019D4D728426997AA7 /* Pods-padashiDemo-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-padashiDemo-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
-		30709E1032D4357D69A48A6B /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
-		38CBF81E6B4958BD1A068100 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		3944FB7AEF801352B12D336A /* Pods-padashiDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-padashiDemo.modulemap"; sourceTree = "<group>"; };
-		3F470AD5095DE8D950189465 /* Pods-padashiDemo-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-padashiDemo-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		457CA3EFB40551224AE4E4DA /* Pods-padashiDemo-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-padashiDemo-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		4CD22A6FCC03E0E944B19E4F /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
-		4D712CFF7173E7148D9AC62E /* Pods-padashiDemo-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-padashiDemo-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		4E99E074A56AB371C918E65A /* Pods-PDSCamera-SnapKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDSCamera-SnapKit-Private.xcconfig"; sourceTree = "<group>"; };
-		4FD6A9AC41930D4CD368783E /* Pods-padashiDemo-SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-padashiDemo-SnapKit-dummy.m"; path = "../Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit-dummy.m"; sourceTree = "<group>"; };
-		50CE05C16F8B21BF83C1FC54 /* Pods-PDSCamera-SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDSCamera-SnapKit-prefix.pch"; sourceTree = "<group>"; };
-		538064E07BE8376ABE101AB0 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
-		543E2C6FD699B89AAC742BC1 /* Pods-padashiDemo-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-padashiDemo-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		5726F9A32D08FCDF6C7667F1 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5897A6BDA26A97A043261803 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		5959CA5EBD6A601A4A3BB184 /* Pods-padashiDemo-SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-padashiDemo-SnapKit.modulemap"; path = "../Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit.modulemap"; sourceTree = "<group>"; };
-		5C272C28AB6EB31F62C6737C /* Pods-padashiDemo-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-padashiDemo-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
-		5EA3EBFB9DB390E9CA3FF844 /* Pods-PDSCamera-SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PDSCamera-SnapKit.modulemap"; sourceTree = "<group>"; };
-		6070FE4820F031C090F060F2 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		643AD40975E14721A25878F0 /* Pods-PDSCamera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PDSCamera-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6483EE12548530908FE31FFE /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		66AA39F240A73B6D9AC17F4B /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
-		6719276275877A83FDA15225 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		67EA536F3D2B6D4EA5685472 /* Pods-padashiDemo-SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-padashiDemo-SnapKit-umbrella.h"; path = "../Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit-umbrella.h"; sourceTree = "<group>"; };
-		6893534523C028BA01D5AEA7 /* Pods-padashiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-padashiDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		6D3B7E759D600770E989A37B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71D7C536BBAA7CFE6323F90C /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		737E0E0986C79B9AC6655F0B /* Pods-PDSCamera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDSCamera-acknowledgements.plist"; sourceTree = "<group>"; };
-		809600332B35CCE6E7CE83B3 /* Pods-padashiDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-padashiDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8374A3E2F558DD583C7EEFD9 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
-		83AC70F0A166F32764A5983F /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		8732A138872298F579BA3366 /* Pods-PDSCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDSCamera.release.xcconfig"; sourceTree = "<group>"; };
-		8941537E0289981081DB6288 /* Pods-padashiDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-padashiDemo-resources.sh"; sourceTree = "<group>"; };
-		8AC90E62ABDCD5AAA8809A6C /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D419D94BC8233810CAC39B1 /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
-		8E1ABDE3CF166160AD787E28 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
-		8F3624DF556E1ADFB03A83AB /* Pods-padashiDemo-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-padashiDemo-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		962E02293D5E4CAC43F776A4 /* Pods-padashiDemo-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-padashiDemo-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		990CDDDADEAD414D21013FD0 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		991A1D99EC06BC1A2B6B32A9 /* Pods-padashiDemo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-padashiDemo-environment.h"; sourceTree = "<group>"; };
-		9ADFE04DC29F45219E92D583 /* Pods-PDSCamera-SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDSCamera-SnapKit-dummy.m"; sourceTree = "<group>"; };
-		9D3100BA60BF425FA01A3D3B /* Pods-PDSCamera-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDSCamera-resources.sh"; sourceTree = "<group>"; };
-		A4A1C67825ECAC3A1D3D45F1 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		A7E6AF818D08952E9B2E9957 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
-		A84FCA4396589DC6F8F0D10D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-padashiDemo-SnapKit/Info.plist"; sourceTree = "<group>"; };
-		ABDA882E1EE1C024F1ABB259 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B23A6DAF6EC4F78D856BC8B8 /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
-		B4F281E7E0F6A89E9A387270 /* Pods-PDSCamera-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDSCamera-frameworks.sh"; sourceTree = "<group>"; };
-		BDAE2413E0BED4C33D9611E2 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		CAF48704642E42E4FAC718B7 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		CBDC8A0AE657F49745E0F116 /* Pods-padashiDemo-SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-padashiDemo-SnapKit.xcconfig"; path = "../Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit.xcconfig"; sourceTree = "<group>"; };
-		CC41FF5FE4D33CE87DF43947 /* Pods-padashiDemo-SnapKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-padashiDemo-SnapKit-Private.xcconfig"; path = "../Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit-Private.xcconfig"; sourceTree = "<group>"; };
-		CD94A386F2B7CAB2E3A842A0 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
-		D0B1C9C82CD329CEAB4B696A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D15EEA7CF2F7B71850671D72 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		D2ADDF82CF7710F1C306DAC6 /* Pods-PDSCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PDSCamera.modulemap"; sourceTree = "<group>"; };
-		D6B53A06CE12353EE34574DF /* Pods-PDSCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDSCamera.debug.xcconfig"; sourceTree = "<group>"; };
-		D76EAD7CA4325A49CAE10618 /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
-		DAD45FDC1D6241746E596C28 /* Pods-padashiDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-padashiDemo-frameworks.sh"; sourceTree = "<group>"; };
-		DB2C97DAAAFB6D25B3D66162 /* Pods-PDSCamera-SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDSCamera-SnapKit.xcconfig"; sourceTree = "<group>"; };
-		DD54EB2D316860100E1BAAA6 /* Pods-PDSCamera-SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDSCamera-SnapKit-umbrella.h"; sourceTree = "<group>"; };
-		E32410508DEFD54FED87B8BD /* Pods-padashiDemo-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-padashiDemo-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		E6A3DE6CE0E3AA4823F6801F /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
-		EBCB3B16EEC18D18CD998B5E /* Pods_padashiDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_padashiDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD58D64FC88B9819D9113316 /* Pods-padashiDemo-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-padashiDemo-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		FF28CF53812D73927BEA08A2 /* Pods-padashiDemo-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-padashiDemo-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		00FFD3570EC4A89DA9419446 /* Pods-padashiDemo-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-padashiDemo-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		02BEFA97DEC57A28551CC243 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		03FF984E0431300B97FFDEE1 /* Pods-PDSCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDSCamera-dummy.m"; sourceTree = "<group>"; };
+		083640C963F9AEA173DBA011 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		0E09D073FFF0EEC29539EF03 /* Pods-PDSCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDSCamera-umbrella.h"; sourceTree = "<group>"; };
+		0E6061A2EC2FC2B5A82B2960 /* Pods-padashiDemo-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-padashiDemo-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		133A633BB62EEF36A2A6C30A /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		199C11EC0B23835BD5E8A92A /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
+		1C2614FF75582AFE3F302964 /* Pods-padashiDemo-SnapKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-padashiDemo-SnapKit-Private.xcconfig"; path = "../Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit-Private.xcconfig"; sourceTree = "<group>"; };
+		1D9219854DCA01FB5B66C707 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		1F2EBDC0667746D2B283B17C /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		2C1FB76C01F4814A1EE8F2CA /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		2C912AF2116A9BA5458632B1 /* Pods-padashiDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-padashiDemo-frameworks.sh"; sourceTree = "<group>"; };
+		32F05DE917F4FFBA5F64B783 /* Pods-padashiDemo-SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-padashiDemo-SnapKit-dummy.m"; path = "../Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit-dummy.m"; sourceTree = "<group>"; };
+		37B61067B438C98E2FFA80E2 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D13642E6764458C573F6E8 /* Pods-PDSCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDSCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		39314D39DBF8281755671BEC /* Pods-padashiDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-padashiDemo-umbrella.h"; sourceTree = "<group>"; };
+		3B7CE6077A3980D2C33C6872 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		3D4ACA4CAC2ACD14E08F6821 /* Pods-padashiDemo-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-padashiDemo-Alamofire.modulemap"; sourceTree = "<group>"; };
+		4111C7F91C2AD106AA0CFDC2 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		450AA320654041E45AECC8D9 /* Pods-padashiDemo-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-padashiDemo-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		48F9E2F3C372A77BD93A2036 /* Pods-padashiDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-padashiDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4942E385638C2716E1189E4F /* Pods-PDSCamera-SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PDSCamera-SnapKit.modulemap"; sourceTree = "<group>"; };
+		4E6DB509761C734E4586DDF3 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		4FF5E8EC1F4F753494C5C527 /* Pods-PDSCamera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PDSCamera-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5067BAF2AEA105051859A4B4 /* Pods-PDSCamera-SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDSCamera-SnapKit-dummy.m"; sourceTree = "<group>"; };
+		56D673D3880731BD686DD707 /* Pods-PDSCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PDSCamera.modulemap"; sourceTree = "<group>"; };
+		5842E602DB975954B9AAAE68 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DBBF7664BC311DD61BB660 /* Pods-PDSCamera-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDSCamera-resources.sh"; sourceTree = "<group>"; };
+		5A2CE4CF56120F96E46FFA9E /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		5BED4F7952E71915E0E4A2F6 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		5C45E9A49DDAA1CFF9A76DA6 /* Pods-padashiDemo-SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-padashiDemo-SnapKit-prefix.pch"; path = "../Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		6170457F9A6369664640D05F /* Pods-padashiDemo-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-padashiDemo-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		67F9A80B6EE6B51484B94AA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE137B38D6BAA2F0077B1E5 /* Pods-padashiDemo-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-padashiDemo-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		6D171E53E2001F09810DB8B2 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		76EA52AB2EDF1AF72277B55A /* Pods-padashiDemo-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-padashiDemo-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		7743C29EB046072298AE7B7D /* Pods-padashiDemo-SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-padashiDemo-SnapKit.modulemap"; path = "../Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit.modulemap"; sourceTree = "<group>"; };
+		794B8564FE08E81138A7B991 /* Pods-padashiDemo-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-padashiDemo-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		7DC9261D0EF922848632C85B /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		83D61C11D766C2A42B34370F /* Pods-PDSCamera-SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDSCamera-SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		8AE8FE26676BE6E738495775 /* Pods-PDSCamera-SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDSCamera-SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		97E269A5A49A8598B59894C6 /* Pods-padashiDemo-SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-padashiDemo-SnapKit-umbrella.h"; path = "../Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		991BC390FF76390666F36E24 /* Pods-padashiDemo-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-padashiDemo-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		9994D18B6F13F7C06A635BB7 /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
+		9C533ED6CCCE56E3D245DE92 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBC9D3BA18A89AB1020C528 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		A4A0E4EA70D8EC811034FD8D /* Pods-padashiDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-padashiDemo.modulemap"; sourceTree = "<group>"; };
+		A540299A5EB189F360596336 /* Pods-padashiDemo-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-padashiDemo-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		A782266C8FDC4372A018E508 /* Pods-PDSCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDSCamera.release.xcconfig"; sourceTree = "<group>"; };
+		A817A60CEE083ECFB3C8ACCD /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		A8BD8AC453279CE72EC3913F /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		AA75775A7B19598EA3F6DC8C /* Pods-PDSCamera-SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDSCamera-SnapKit.xcconfig"; sourceTree = "<group>"; };
+		ABB48A7747D3DCEE24E12462 /* Pods-padashiDemo-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-padashiDemo-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		AFBB523D5E46FD19F727E8DF /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		AFDC78B56D1803439FC39FE6 /* Pods-padashiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-padashiDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B4A8DD4ECE406DAEDE926178 /* Pods-padashiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-padashiDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B9BB9861400E05386FC67AFB /* Pods-PDSCamera-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDSCamera-frameworks.sh"; sourceTree = "<group>"; };
+		BAD65C5A3C64DF395B8D02AA /* Pods-padashiDemo-SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-padashiDemo-SnapKit.xcconfig"; path = "../Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit.xcconfig"; sourceTree = "<group>"; };
+		BC0AD94B6F3D106010093B38 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		C125EE5AA3801AB4B48E8982 /* Pods-padashiDemo-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-padashiDemo-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		C2C019B3B6D02B7FA7BABACA /* Pods-PDSCamera-SnapKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDSCamera-SnapKit-Private.xcconfig"; sourceTree = "<group>"; };
+		C6B4AD08CF16F2D9785F0778 /* Pods-PDSCamera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDSCamera-acknowledgements.plist"; sourceTree = "<group>"; };
+		C926A96071D5AC7D4BFE77E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CAF91172E3B7C9D9721DADB6 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD611BF23257116B773460FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2DFA7038AC5D2180AA39F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D076AD529C04CD11A79F7184 /* Pods-padashiDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-padashiDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2925F20C16B89D9C4AA79BD /* Pods-padashiDemo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-padashiDemo-environment.h"; sourceTree = "<group>"; };
+		DAEFAA776660B9E875A19CEC /* Pods_padashiDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_padashiDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBEED2E377F165208140408 /* Pods-PDSCamera-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDSCamera-environment.h"; sourceTree = "<group>"; };
+		DBC683C0919470CD4F514B8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD6157E264BF20178DD50FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-padashiDemo-SnapKit/Info.plist"; sourceTree = "<group>"; };
+		E986EC4F2F57BE3945E4D750 /* Pods-padashiDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-padashiDemo-resources.sh"; sourceTree = "<group>"; };
+		EC078FD4CA2A3BE01EDB57F1 /* Pods-padashiDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-padashiDemo-dummy.m"; sourceTree = "<group>"; };
+		ECA506D8A3AF4EB9B3DE4084 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29D80071F5AE8BEB21A0E18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38B66DB0ADF1E663BF83D20 /* Pods_PDSCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDSCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD75B69C599E24B8CC9FA8B2 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		FE81C423C0591F35EDE15522 /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
+		FF5CE7ADC4F0C533B1482B75 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		60B9A12312A8882BBED85C78 /* Frameworks */ = {
+		0E7DBA8ACEA991673ECFABB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D3C1D5C300123C7651DBB31 /* Foundation.framework in Frameworks */,
+				EA4DFAE929A85A543B6DC1F3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8531BB7FD71C75F907BE7199 /* Frameworks */ = {
+		2750F3F035C0E72F24323DD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE4650779E7B3B14D46DF40B /* Foundation.framework in Frameworks */,
+				9A889517DC2327002E1FC931 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		975A27F3342D76F3EC6267E7 /* Frameworks */ = {
+		37533CD2CAA2BAB34E384F12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1805CCEBD8F152ACBDB1979B /* Foundation.framework in Frameworks */,
+				88DB67EDFE3ACD62FA9656DD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A86B44A403F8FA231A700FFD /* Frameworks */ = {
+		481B6A6DBD669A1A863BCD8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A29B210AE887115FF288722 /* Foundation.framework in Frameworks */,
+				F516BD2FB75C49E8CF7B53B9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0794F68485575564037F31F /* Frameworks */ = {
+		49E44D9D7A65C10C14C3EB82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60DCA997F21A25BA07A195E0 /* Foundation.framework in Frameworks */,
+				C1533608B746DE2FA87177A5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E18B6D5A4A2BE2DFA3C4B3C0 /* Frameworks */ = {
+		661980B6C43105C61B517A7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D453C44DC57B801C0D4BD674 /* Foundation.framework in Frameworks */,
+				FF560B5097E107DDA3F53DF3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E04271314170DB2AE312F2F /* SnapKit */ = {
+		0A6ABBA0FA188E34E481AEB9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				30709E1032D4357D69A48A6B /* Constraint.swift */,
-				66AA39F240A73B6D9AC17F4B /* ConstraintAttributes.swift */,
-				E6A3DE6CE0E3AA4823F6801F /* ConstraintDescription.swift */,
-				CD94A386F2B7CAB2E3A842A0 /* ConstraintItem.swift */,
-				8374A3E2F558DD583C7EEFD9 /* ConstraintMaker.swift */,
-				A7E6AF818D08952E9B2E9957 /* ConstraintRelation.swift */,
-				8E1ABDE3CF166160AD787E28 /* Debugging.swift */,
-				D76EAD7CA4325A49CAE10618 /* EdgeInsets.swift */,
-				538064E07BE8376ABE101AB0 /* LayoutConstraint.swift */,
-				8D419D94BC8233810CAC39B1 /* SnapKit.swift */,
-				B23A6DAF6EC4F78D856BC8B8 /* View+SnapKit.swift */,
-				4CD22A6FCC03E0E944B19E4F /* ViewController+SnapKit.swift */,
-				A3A10746A7E536F853342AB7 /* Support Files */,
-			);
-			path = SnapKit;
-			sourceTree = "<group>";
-		};
-		17F249C236B83D0AC222524C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6719276275877A83FDA15225 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		2EBEED7EA901A30E225E8BA6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1EC721F8C1F2863AC16E0EE0 /* Info.plist */,
-				13D727687ED0C457344889F3 /* Pods-padashiDemo-Alamofire.modulemap */,
-				4D712CFF7173E7148D9AC62E /* Pods-padashiDemo-Alamofire.xcconfig */,
-				962E02293D5E4CAC43F776A4 /* Pods-padashiDemo-Alamofire-Private.xcconfig */,
-				3F470AD5095DE8D950189465 /* Pods-padashiDemo-Alamofire-dummy.m */,
-				457CA3EFB40551224AE4E4DA /* Pods-padashiDemo-Alamofire-prefix.pch */,
-				8F3624DF556E1ADFB03A83AB /* Pods-padashiDemo-Alamofire-umbrella.h */,
+				DBC683C0919470CD4F514B8C /* Info.plist */,
+				3D4ACA4CAC2ACD14E08F6821 /* Pods-padashiDemo-Alamofire.modulemap */,
+				00FFD3570EC4A89DA9419446 /* Pods-padashiDemo-Alamofire.xcconfig */,
+				C125EE5AA3801AB4B48E8982 /* Pods-padashiDemo-Alamofire-Private.xcconfig */,
+				991BC390FF76390666F36E24 /* Pods-padashiDemo-Alamofire-dummy.m */,
+				ABB48A7747D3DCEE24E12462 /* Pods-padashiDemo-Alamofire-prefix.pch */,
+				6170457F9A6369664640D05F /* Pods-padashiDemo-Alamofire-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-padashiDemo-Alamofire";
 			sourceTree = "<group>";
 		};
-		725BA3DE7266411DEAC19FBC /* SwiftyJSON */ = {
+		0EDF6C661605490F856872C4 /* Pods-padashiDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6483EE12548530908FE31FFE /* SwiftyJSON.swift */,
-				810C3DE281E047F02CA8F87E /* Support Files */,
-			);
-			path = SwiftyJSON;
-			sourceTree = "<group>";
-		};
-		810C3DE281E047F02CA8F87E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6D3B7E759D600770E989A37B /* Info.plist */,
-				5C272C28AB6EB31F62C6737C /* Pods-padashiDemo-SwiftyJSON.modulemap */,
-				FF28CF53812D73927BEA08A2 /* Pods-padashiDemo-SwiftyJSON.xcconfig */,
-				2F5536019D4D728426997AA7 /* Pods-padashiDemo-SwiftyJSON-Private.xcconfig */,
-				E32410508DEFD54FED87B8BD /* Pods-padashiDemo-SwiftyJSON-dummy.m */,
-				FD58D64FC88B9819D9113316 /* Pods-padashiDemo-SwiftyJSON-prefix.pch */,
-				543E2C6FD699B89AAC742BC1 /* Pods-padashiDemo-SwiftyJSON-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-padashiDemo-SwiftyJSON";
-			sourceTree = "<group>";
-		};
-		888E8E20C1F87AF37176C9F4 /* Pods-PDSCamera */ = {
-			isa = PBXGroup;
-			children = (
-				D0B1C9C82CD329CEAB4B696A /* Info.plist */,
-				D2ADDF82CF7710F1C306DAC6 /* Pods-PDSCamera.modulemap */,
-				643AD40975E14721A25878F0 /* Pods-PDSCamera-acknowledgements.markdown */,
-				737E0E0986C79B9AC6655F0B /* Pods-PDSCamera-acknowledgements.plist */,
-				1F465050097CE5E60254165C /* Pods-PDSCamera-dummy.m */,
-				10FF6F704D46B5B12B262287 /* Pods-PDSCamera-environment.h */,
-				B4F281E7E0F6A89E9A387270 /* Pods-PDSCamera-frameworks.sh */,
-				9D3100BA60BF425FA01A3D3B /* Pods-PDSCamera-resources.sh */,
-				2D621D37E400505CAED27842 /* Pods-PDSCamera-umbrella.h */,
-				D6B53A06CE12353EE34574DF /* Pods-PDSCamera.debug.xcconfig */,
-				8732A138872298F579BA3366 /* Pods-PDSCamera.release.xcconfig */,
-			);
-			name = "Pods-PDSCamera";
-			path = "Target Support Files/Pods-PDSCamera";
-			sourceTree = "<group>";
-		};
-		8CDC197E37EF141D3FCFA635 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5726F9A32D08FCDF6C7667F1 /* Alamofire.framework */,
-				1011E0344DB2E42DC6FF2A0A /* Pods_PDSCamera.framework */,
-				EBCB3B16EEC18D18CD998B5E /* Pods_padashiDemo.framework */,
-				8AC90E62ABDCD5AAA8809A6C /* SnapKit.framework */,
-				990CDDDADEAD414D21013FD0 /* SnapKit.framework */,
-				71D7C536BBAA7CFE6323F90C /* SwiftyJSON.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		99E6E6E569FD28212E4374EE = {
-			isa = PBXGroup;
-			children = (
-				09C55CDAE735E9F73B8D04E7 /* Podfile */,
-				FA9BE2EFA49D29EB386AEB92 /* Frameworks */,
-				C46A02500C499B8ECC14C5C9 /* Pods */,
-				8CDC197E37EF141D3FCFA635 /* Products */,
-				A7025C322AAE6F92DEED3D29 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		A3A10746A7E536F853342AB7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				29377FA8246C5FAAC1893C60 /* Info.plist */,
-				A84FCA4396589DC6F8F0D10D /* Info.plist */,
-				5EA3EBFB9DB390E9CA3FF844 /* Pods-PDSCamera-SnapKit.modulemap */,
-				DB2C97DAAAFB6D25B3D66162 /* Pods-PDSCamera-SnapKit.xcconfig */,
-				4E99E074A56AB371C918E65A /* Pods-PDSCamera-SnapKit-Private.xcconfig */,
-				9ADFE04DC29F45219E92D583 /* Pods-PDSCamera-SnapKit-dummy.m */,
-				50CE05C16F8B21BF83C1FC54 /* Pods-PDSCamera-SnapKit-prefix.pch */,
-				DD54EB2D316860100E1BAAA6 /* Pods-PDSCamera-SnapKit-umbrella.h */,
-				5959CA5EBD6A601A4A3BB184 /* Pods-padashiDemo-SnapKit.modulemap */,
-				CBDC8A0AE657F49745E0F116 /* Pods-padashiDemo-SnapKit.xcconfig */,
-				CC41FF5FE4D33CE87DF43947 /* Pods-padashiDemo-SnapKit-Private.xcconfig */,
-				4FD6A9AC41930D4CD368783E /* Pods-padashiDemo-SnapKit-dummy.m */,
-				1450C8A3BD091558F3CE9684 /* Pods-padashiDemo-SnapKit-prefix.pch */,
-				67EA536F3D2B6D4EA5685472 /* Pods-padashiDemo-SnapKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-PDSCamera-SnapKit";
-			sourceTree = "<group>";
-		};
-		A7025C322AAE6F92DEED3D29 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				888E8E20C1F87AF37176C9F4 /* Pods-PDSCamera */,
-				C03089965799162EAA18C684 /* Pods-padashiDemo */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BC0CC1425C015B48BD0D5F87 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				BDAE2413E0BED4C33D9611E2 /* Alamofire.swift */,
-				6070FE4820F031C090F060F2 /* Download.swift */,
-				5897A6BDA26A97A043261803 /* Manager.swift */,
-				D15EEA7CF2F7B71850671D72 /* MultipartFormData.swift */,
-				CAF48704642E42E4FAC718B7 /* ParameterEncoding.swift */,
-				A4A1C67825ECAC3A1D3D45F1 /* Request.swift */,
-				38CBF81E6B4958BD1A068100 /* ResponseSerialization.swift */,
-				83AC70F0A166F32764A5983F /* ServerTrustPolicy.swift */,
-				1D6621AB3B26496485E641A7 /* Upload.swift */,
-				1D9A176BD6548EE9AE093EF6 /* Validation.swift */,
-				2EBEED7EA901A30E225E8BA6 /* Support Files */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		C03089965799162EAA18C684 /* Pods-padashiDemo */ = {
-			isa = PBXGroup;
-			children = (
-				ABDA882E1EE1C024F1ABB259 /* Info.plist */,
-				3944FB7AEF801352B12D336A /* Pods-padashiDemo.modulemap */,
-				809600332B35CCE6E7CE83B3 /* Pods-padashiDemo-acknowledgements.markdown */,
-				0B531EA3625286F727E0089A /* Pods-padashiDemo-acknowledgements.plist */,
-				01C2A1FB84FA591958D0BDC8 /* Pods-padashiDemo-dummy.m */,
-				991A1D99EC06BC1A2B6B32A9 /* Pods-padashiDemo-environment.h */,
-				DAD45FDC1D6241746E596C28 /* Pods-padashiDemo-frameworks.sh */,
-				8941537E0289981081DB6288 /* Pods-padashiDemo-resources.sh */,
-				2C0E331C75C0F41C5552B874 /* Pods-padashiDemo-umbrella.h */,
-				6893534523C028BA01D5AEA7 /* Pods-padashiDemo.debug.xcconfig */,
-				0F34A562DFA9F14C590ED74B /* Pods-padashiDemo.release.xcconfig */,
+				CE2DFA7038AC5D2180AA39F7 /* Info.plist */,
+				A4A0E4EA70D8EC811034FD8D /* Pods-padashiDemo.modulemap */,
+				48F9E2F3C372A77BD93A2036 /* Pods-padashiDemo-acknowledgements.markdown */,
+				D076AD529C04CD11A79F7184 /* Pods-padashiDemo-acknowledgements.plist */,
+				EC078FD4CA2A3BE01EDB57F1 /* Pods-padashiDemo-dummy.m */,
+				D2925F20C16B89D9C4AA79BD /* Pods-padashiDemo-environment.h */,
+				2C912AF2116A9BA5458632B1 /* Pods-padashiDemo-frameworks.sh */,
+				E986EC4F2F57BE3945E4D750 /* Pods-padashiDemo-resources.sh */,
+				39314D39DBF8281755671BEC /* Pods-padashiDemo-umbrella.h */,
+				AFDC78B56D1803439FC39FE6 /* Pods-padashiDemo.debug.xcconfig */,
+				B4A8DD4ECE406DAEDE926178 /* Pods-padashiDemo.release.xcconfig */,
 			);
 			name = "Pods-padashiDemo";
 			path = "Target Support Files/Pods-padashiDemo";
 			sourceTree = "<group>";
 		};
-		C46A02500C499B8ECC14C5C9 /* Pods */ = {
+		1FA981C2B1F08DD5AC3B4E57 /* SnapKit */ = {
 			isa = PBXGroup;
 			children = (
-				BC0CC1425C015B48BD0D5F87 /* Alamofire */,
-				0E04271314170DB2AE312F2F /* SnapKit */,
-				725BA3DE7266411DEAC19FBC /* SwiftyJSON */,
+				AFBB523D5E46FD19F727E8DF /* Constraint.swift */,
+				4111C7F91C2AD106AA0CFDC2 /* ConstraintAttributes.swift */,
+				5BED4F7952E71915E0E4A2F6 /* ConstraintDescription.swift */,
+				9FBC9D3BA18A89AB1020C528 /* ConstraintItem.swift */,
+				FD75B69C599E24B8CC9FA8B2 /* ConstraintMaker.swift */,
+				1D9219854DCA01FB5B66C707 /* ConstraintRelation.swift */,
+				4E6DB509761C734E4586DDF3 /* Debugging.swift */,
+				199C11EC0B23835BD5E8A92A /* EdgeInsets.swift */,
+				A8BD8AC453279CE72EC3913F /* LayoutConstraint.swift */,
+				9994D18B6F13F7C06A635BB7 /* SnapKit.swift */,
+				FE81C423C0591F35EDE15522 /* View+SnapKit.swift */,
+				7DC9261D0EF922848632C85B /* ViewController+SnapKit.swift */,
+				41D71E167E33570DBF743EEB /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		3A8EDE814F9B34E7BED01001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				977763F8BAE2517F3E6C8D4B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41D71E167E33570DBF743EEB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD611BF23257116B773460FE /* Info.plist */,
+				DBD6157E264BF20178DD50FA /* Info.plist */,
+				4942E385638C2716E1189E4F /* Pods-PDSCamera-SnapKit.modulemap */,
+				AA75775A7B19598EA3F6DC8C /* Pods-PDSCamera-SnapKit.xcconfig */,
+				C2C019B3B6D02B7FA7BABACA /* Pods-PDSCamera-SnapKit-Private.xcconfig */,
+				5067BAF2AEA105051859A4B4 /* Pods-PDSCamera-SnapKit-dummy.m */,
+				83D61C11D766C2A42B34370F /* Pods-PDSCamera-SnapKit-prefix.pch */,
+				8AE8FE26676BE6E738495775 /* Pods-PDSCamera-SnapKit-umbrella.h */,
+				7743C29EB046072298AE7B7D /* Pods-padashiDemo-SnapKit.modulemap */,
+				BAD65C5A3C64DF395B8D02AA /* Pods-padashiDemo-SnapKit.xcconfig */,
+				1C2614FF75582AFE3F302964 /* Pods-padashiDemo-SnapKit-Private.xcconfig */,
+				32F05DE917F4FFBA5F64B783 /* Pods-padashiDemo-SnapKit-dummy.m */,
+				5C45E9A49DDAA1CFF9A76DA6 /* Pods-padashiDemo-SnapKit-prefix.pch */,
+				97E269A5A49A8598B59894C6 /* Pods-padashiDemo-SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-PDSCamera-SnapKit";
+			sourceTree = "<group>";
+		};
+		66797B596C54A547760229EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C533ED6CCCE56E3D245DE92 /* Alamofire.framework */,
+				F38B66DB0ADF1E663BF83D20 /* Pods_PDSCamera.framework */,
+				DAEFAA776660B9E875A19CEC /* Pods_padashiDemo.framework */,
+				37B61067B438C98E2FFA80E2 /* SnapKit.framework */,
+				ECA506D8A3AF4EB9B3DE4084 /* SnapKit.framework */,
+				5842E602DB975954B9AAAE68 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6714C480656FF18FBFB2F82A /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				133A633BB62EEF36A2A6C30A /* Alamofire.swift */,
+				BC0AD94B6F3D106010093B38 /* Download.swift */,
+				02BEFA97DEC57A28551CC243 /* Manager.swift */,
+				5A2CE4CF56120F96E46FFA9E /* MultipartFormData.swift */,
+				FF5CE7ADC4F0C533B1482B75 /* ParameterEncoding.swift */,
+				2C1FB76C01F4814A1EE8F2CA /* Request.swift */,
+				1F2EBDC0667746D2B283B17C /* ResponseSerialization.swift */,
+				6D171E53E2001F09810DB8B2 /* ServerTrustPolicy.swift */,
+				083640C963F9AEA173DBA011 /* Upload.swift */,
+				A817A60CEE083ECFB3C8ACCD /* Validation.swift */,
+				0A6ABBA0FA188E34E481AEB9 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		74B64B5A3F5E75DEDA56E144 = {
+			isa = PBXGroup;
+			children = (
+				CAF91172E3B7C9D9721DADB6 /* Podfile */,
+				3A8EDE814F9B34E7BED01001 /* Frameworks */,
+				C3F29A96F64DB70B2CD38DE7 /* Pods */,
+				66797B596C54A547760229EC /* Products */,
+				79026F9ECD452F4EC0EFA15B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		79026F9ECD452F4EC0EFA15B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA819F4E8E3DADC7609AEC61 /* Pods-PDSCamera */,
+				0EDF6C661605490F856872C4 /* Pods-padashiDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		89AFBFB45A5A8621A20EBBBA /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				3B7CE6077A3980D2C33C6872 /* SwiftyJSON.swift */,
+				F621C2D671180D5DB3D77E8F /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		977763F8BAE2517F3E6C8D4B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C926A96071D5AC7D4BFE77E7 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3F29A96F64DB70B2CD38DE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6714C480656FF18FBFB2F82A /* Alamofire */,
+				1FA981C2B1F08DD5AC3B4E57 /* SnapKit */,
+				89AFBFB45A5A8621A20EBBBA /* SwiftyJSON */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FA9BE2EFA49D29EB386AEB92 /* Frameworks */ = {
+		CA819F4E8E3DADC7609AEC61 /* Pods-PDSCamera */ = {
 			isa = PBXGroup;
 			children = (
-				17F249C236B83D0AC222524C /* iOS */,
+				F29D80071F5AE8BEB21A0E18 /* Info.plist */,
+				56D673D3880731BD686DD707 /* Pods-PDSCamera.modulemap */,
+				4FF5E8EC1F4F753494C5C527 /* Pods-PDSCamera-acknowledgements.markdown */,
+				C6B4AD08CF16F2D9785F0778 /* Pods-PDSCamera-acknowledgements.plist */,
+				03FF984E0431300B97FFDEE1 /* Pods-PDSCamera-dummy.m */,
+				DBBEED2E377F165208140408 /* Pods-PDSCamera-environment.h */,
+				B9BB9861400E05386FC67AFB /* Pods-PDSCamera-frameworks.sh */,
+				58DBBF7664BC311DD61BB660 /* Pods-PDSCamera-resources.sh */,
+				0E09D073FFF0EEC29539EF03 /* Pods-PDSCamera-umbrella.h */,
+				38D13642E6764458C573F6E8 /* Pods-PDSCamera.debug.xcconfig */,
+				A782266C8FDC4372A018E508 /* Pods-PDSCamera.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Pods-PDSCamera";
+			path = "Target Support Files/Pods-PDSCamera";
+			sourceTree = "<group>";
+		};
+		F621C2D671180D5DB3D77E8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67F9A80B6EE6B51484B94AA3 /* Info.plist */,
+				794B8564FE08E81138A7B991 /* Pods-padashiDemo-SwiftyJSON.modulemap */,
+				6CE137B38D6BAA2F0077B1E5 /* Pods-padashiDemo-SwiftyJSON.xcconfig */,
+				450AA320654041E45AECC8D9 /* Pods-padashiDemo-SwiftyJSON-Private.xcconfig */,
+				0E6061A2EC2FC2B5A82B2960 /* Pods-padashiDemo-SwiftyJSON-dummy.m */,
+				76EA52AB2EDF1AF72277B55A /* Pods-padashiDemo-SwiftyJSON-prefix.pch */,
+				A540299A5EB189F360596336 /* Pods-padashiDemo-SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-padashiDemo-SwiftyJSON";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1D633747224022015F655D8D /* Headers */ = {
+		11C121B389A47BB01B9121D6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6128EA8C31FBE2A7D925C95C /* Pods-padashiDemo-Alamofire-umbrella.h in Headers */,
+				44E9B2C3E7D6CE7C667F3F51 /* Pods-padashiDemo-Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C4810D6688A1902BD50AF98 /* Headers */ = {
+		2B9ACC6F8458CAD33DACF0FE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				596FD5AA3458C8F2D051E4C8 /* Pods-padashiDemo-umbrella.h in Headers */,
+				1FD2BA1F9B9EF98D05A0A7CE /* Pods-padashiDemo-SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38BCC3C56C38B125C7A17579 /* Headers */ = {
+		93190AACAA16BBF29586E5FA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFCE767FF4BA8E41009097ED /* Pods-PDSCamera-SnapKit-umbrella.h in Headers */,
+				BAFC0CFA393D54FC2BCF1F21 /* Pods-PDSCamera-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B92C618B176B54E72C60324 /* Headers */ = {
+		96DF3C77F39D244968DD25C9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7178D3AB8EEC3082E5DCAE91 /* Pods-PDSCamera-umbrella.h in Headers */,
+				F742C10BAD69F9E6A1B716ED /* Pods-padashiDemo-SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		891AF1017C0CDC77E2FA8F8B /* Headers */ = {
+		9EAE432DBA7DF3F6A55BFD76 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69A881A83A639F040FCF3A3D /* Pods-padashiDemo-SwiftyJSON-umbrella.h in Headers */,
+				0DD4F0B921FF9174B8442540 /* Pods-PDSCamera-SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E79E978D0CBA5BFD8B76B7B /* Headers */ = {
+		EF667DA8C9A148FB371945AE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF3B063A459CEE7F22A6A3B4 /* Pods-padashiDemo-SnapKit-umbrella.h in Headers */,
+				5491BA327AB273DF768ED4E8 /* Pods-padashiDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0827FE217111300ABA609281 /* Pods-padashiDemo-Alamofire */ = {
+		08B598C80EDFBB18C9728849 /* Pods-padashiDemo-Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26402930693E5BCCD3288D1E /* Build configuration list for PBXNativeTarget "Pods-padashiDemo-Alamofire" */;
+			buildConfigurationList = CA97E2EA6F361CD0A4CDFD43 /* Build configuration list for PBXNativeTarget "Pods-padashiDemo-Alamofire" */;
 			buildPhases = (
-				C66C990E78B133D4A599A6D7 /* Sources */,
-				60B9A12312A8882BBED85C78 /* Frameworks */,
-				1D633747224022015F655D8D /* Headers */,
+				F8C60EB55A9D76B1F363E3BE /* Sources */,
+				49E44D9D7A65C10C14C3EB82 /* Frameworks */,
+				11C121B389A47BB01B9121D6 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -493,70 +493,34 @@
 			);
 			name = "Pods-padashiDemo-Alamofire";
 			productName = "Pods-padashiDemo-Alamofire";
-			productReference = 5726F9A32D08FCDF6C7667F1 /* Alamofire.framework */;
+			productReference = 9C533ED6CCCE56E3D245DE92 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4749E9ED88B2AEA90762729E /* Pods-padashiDemo-SwiftyJSON */ = {
+		1A10A321366080B00EE8A84C /* Pods-PDSCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FD2CAE5740B9E02145BB268 /* Build configuration list for PBXNativeTarget "Pods-padashiDemo-SwiftyJSON" */;
+			buildConfigurationList = 27645A377B5551C8BAE8BC54 /* Build configuration list for PBXNativeTarget "Pods-PDSCamera" */;
 			buildPhases = (
-				16CFCE5070A644CAB43E42CE /* Sources */,
-				C0794F68485575564037F31F /* Frameworks */,
-				891AF1017C0CDC77E2FA8F8B /* Headers */,
+				9163822A8210A7D951FAF260 /* Sources */,
+				37533CD2CAA2BAB34E384F12 /* Frameworks */,
+				93190AACAA16BBF29586E5FA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6D756DB9CF39A6ED0FA5B8F2 /* PBXTargetDependency */,
 			);
-			name = "Pods-padashiDemo-SwiftyJSON";
-			productName = "Pods-padashiDemo-SwiftyJSON";
-			productReference = 71D7C536BBAA7CFE6323F90C /* SwiftyJSON.framework */;
+			name = "Pods-PDSCamera";
+			productName = "Pods-PDSCamera";
+			productReference = F38B66DB0ADF1E663BF83D20 /* Pods_PDSCamera.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6743543AACA54910F09EC612 /* Pods-padashiDemo */ = {
+		1E143F3009107241473A0DBB /* Pods-padashiDemo-SnapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F06F2EBD4C7F3931335F0E41 /* Build configuration list for PBXNativeTarget "Pods-padashiDemo" */;
+			buildConfigurationList = E3CFB1A370217EC499B37EFC /* Build configuration list for PBXNativeTarget "Pods-padashiDemo-SnapKit" */;
 			buildPhases = (
-				D97F41440AEA373A1D6F0C24 /* Sources */,
-				975A27F3342D76F3EC6267E7 /* Frameworks */,
-				2C4810D6688A1902BD50AF98 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0CB68EEDED242E785DCE9C48 /* PBXTargetDependency */,
-				F26D1AE14782C39562D735F2 /* PBXTargetDependency */,
-				7A4F749CEE4E47A02FE72AC0 /* PBXTargetDependency */,
-			);
-			name = "Pods-padashiDemo";
-			productName = "Pods-padashiDemo";
-			productReference = EBCB3B16EEC18D18CD998B5E /* Pods_padashiDemo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		821DFEB4B1578936F5FE23C3 /* Pods-PDSCamera-SnapKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD63A626507FDDD0A0A30AA3 /* Build configuration list for PBXNativeTarget "Pods-PDSCamera-SnapKit" */;
-			buildPhases = (
-				3A3D09FC6B32A83A9BE757D6 /* Sources */,
-				A86B44A403F8FA231A700FFD /* Frameworks */,
-				38BCC3C56C38B125C7A17579 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-PDSCamera-SnapKit";
-			productName = "Pods-PDSCamera-SnapKit";
-			productReference = 8AC90E62ABDCD5AAA8809A6C /* SnapKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9F95C3C36A3CACA478C0D3D5 /* Pods-padashiDemo-SnapKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5946DB2C40DCB4CB22449364 /* Build configuration list for PBXNativeTarget "Pods-padashiDemo-SnapKit" */;
-			buildPhases = (
-				A1555EA255178384B7C7C2B5 /* Sources */,
-				8531BB7FD71C75F907BE7199 /* Frameworks */,
-				9E79E978D0CBA5BFD8B76B7B /* Headers */,
+				05C45AF6F9AA98497554C47F /* Sources */,
+				481B6A6DBD669A1A863BCD8B /* Frameworks */,
+				96DF3C77F39D244968DD25C9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -564,174 +528,210 @@
 			);
 			name = "Pods-padashiDemo-SnapKit";
 			productName = "Pods-padashiDemo-SnapKit";
-			productReference = 990CDDDADEAD414D21013FD0 /* SnapKit.framework */;
+			productReference = ECA506D8A3AF4EB9B3DE4084 /* SnapKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AD00F7B9D753E3022617C0C0 /* Pods-PDSCamera */ = {
+		9FDD0C87037E3C96B23CA288 /* Pods-padashiDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 351C449CA280E383B6832D69 /* Build configuration list for PBXNativeTarget "Pods-PDSCamera" */;
+			buildConfigurationList = 368FE9010890ABF0526BB3D1 /* Build configuration list for PBXNativeTarget "Pods-padashiDemo" */;
 			buildPhases = (
-				C825CAFB5906D08D43348E8A /* Sources */,
-				E18B6D5A4A2BE2DFA3C4B3C0 /* Frameworks */,
-				5B92C618B176B54E72C60324 /* Headers */,
+				E0A0916910DADBE38D082524 /* Sources */,
+				661980B6C43105C61B517A7A /* Frameworks */,
+				EF667DA8C9A148FB371945AE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5DFD2CBC0EC7C3B02FC1C7ED /* PBXTargetDependency */,
+				398325EEA56F81F7C10E13F9 /* PBXTargetDependency */,
+				8076D5E42B65FFCF58FFE595 /* PBXTargetDependency */,
+				420958729B163286C0C86463 /* PBXTargetDependency */,
 			);
-			name = "Pods-PDSCamera";
-			productName = "Pods-PDSCamera";
-			productReference = 1011E0344DB2E42DC6FF2A0A /* Pods_PDSCamera.framework */;
+			name = "Pods-padashiDemo";
+			productName = "Pods-padashiDemo";
+			productReference = DAEFAA776660B9E875A19CEC /* Pods_padashiDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC2BDC7477F8693E88DE60FF /* Pods-padashiDemo-SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922BB8F41E4E9171812BF761 /* Build configuration list for PBXNativeTarget "Pods-padashiDemo-SwiftyJSON" */;
+			buildPhases = (
+				A70AF005F1DEF9FC4048957E /* Sources */,
+				0E7DBA8ACEA991673ECFABB5 /* Frameworks */,
+				2B9ACC6F8458CAD33DACF0FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-padashiDemo-SwiftyJSON";
+			productName = "Pods-padashiDemo-SwiftyJSON";
+			productReference = 5842E602DB975954B9AAAE68 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEE4BB24B858AF7E1394B028 /* Pods-PDSCamera-SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84411D9CBC12B147A2A6B9A0 /* Build configuration list for PBXNativeTarget "Pods-PDSCamera-SnapKit" */;
+			buildPhases = (
+				0AF42EFB06F4CE05CA177E1B /* Sources */,
+				2750F3F035C0E72F24323DD7 /* Frameworks */,
+				9EAE432DBA7DF3F6A55BFD76 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PDSCamera-SnapKit";
+			productName = "Pods-PDSCamera-SnapKit";
+			productReference = 37B61067B438C98E2FFA80E2 /* SnapKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4241C112EA968E7B7DD5FB42 /* Project object */ = {
+		81AFC95B2B9194B26329DDD9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 69C3B551889C53AA8786F867 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = FAE7D7D97A8120D4D2375D12 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 99E6E6E569FD28212E4374EE;
-			productRefGroup = 8CDC197E37EF141D3FCFA635 /* Products */;
+			mainGroup = 74B64B5A3F5E75DEDA56E144;
+			productRefGroup = 66797B596C54A547760229EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD00F7B9D753E3022617C0C0 /* Pods-PDSCamera */,
-				821DFEB4B1578936F5FE23C3 /* Pods-PDSCamera-SnapKit */,
-				6743543AACA54910F09EC612 /* Pods-padashiDemo */,
-				0827FE217111300ABA609281 /* Pods-padashiDemo-Alamofire */,
-				9F95C3C36A3CACA478C0D3D5 /* Pods-padashiDemo-SnapKit */,
-				4749E9ED88B2AEA90762729E /* Pods-padashiDemo-SwiftyJSON */,
+				1A10A321366080B00EE8A84C /* Pods-PDSCamera */,
+				FEE4BB24B858AF7E1394B028 /* Pods-PDSCamera-SnapKit */,
+				9FDD0C87037E3C96B23CA288 /* Pods-padashiDemo */,
+				08B598C80EDFBB18C9728849 /* Pods-padashiDemo-Alamofire */,
+				1E143F3009107241473A0DBB /* Pods-padashiDemo-SnapKit */,
+				BC2BDC7477F8693E88DE60FF /* Pods-padashiDemo-SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		16CFCE5070A644CAB43E42CE /* Sources */ = {
+		05C45AF6F9AA98497554C47F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				059639447668F63BCE17D1B1 /* Pods-padashiDemo-SwiftyJSON-dummy.m in Sources */,
-				20D46FF4DA0F89E06D3C8BC1 /* SwiftyJSON.swift in Sources */,
+				9358DAEABD102544E9A9AF25 /* Constraint.swift in Sources */,
+				D7CAE3AF90E4B3B22E371326 /* ConstraintAttributes.swift in Sources */,
+				DB83A5E5FA03F7B9EDF4572A /* ConstraintDescription.swift in Sources */,
+				B4ECC24F16D347E677FED20C /* ConstraintItem.swift in Sources */,
+				8092B403ABED3670836E275F /* ConstraintMaker.swift in Sources */,
+				819B058FF1B4ED723DE32731 /* ConstraintRelation.swift in Sources */,
+				B490B21C4D51C88461E1410D /* Debugging.swift in Sources */,
+				EDA722753159D500E488ACE2 /* EdgeInsets.swift in Sources */,
+				5838B7EB2A92C0BF45851C39 /* LayoutConstraint.swift in Sources */,
+				1EC4DC4E9B12EA40CE1B4ABD /* Pods-padashiDemo-SnapKit-dummy.m in Sources */,
+				93E094EBC2AEA4AB08CEAE6C /* SnapKit.swift in Sources */,
+				EEB97E0D2A330E846788E4E0 /* View+SnapKit.swift in Sources */,
+				CB922CD9D313660A08291A36 /* ViewController+SnapKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A3D09FC6B32A83A9BE757D6 /* Sources */ = {
+		0AF42EFB06F4CE05CA177E1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6436D77E2E8D50C4D6A2B4 /* Constraint.swift in Sources */,
-				E36E850979F849C11432AD2A /* ConstraintAttributes.swift in Sources */,
-				67160F52013FAC12EF5917BA /* ConstraintDescription.swift in Sources */,
-				AC4857C886AC3B6F80D009C5 /* ConstraintItem.swift in Sources */,
-				278BD7D462A18CDC753EB91A /* ConstraintMaker.swift in Sources */,
-				19C321A905F9D9E68858C56F /* ConstraintRelation.swift in Sources */,
-				A9D8FBDED7A012CFA5E2A1E5 /* Debugging.swift in Sources */,
-				254EAC12A70D05DE36EEB7CA /* EdgeInsets.swift in Sources */,
-				A0642EE07D09DE9F231280E9 /* LayoutConstraint.swift in Sources */,
-				AB439EA2CE99EEC6C69C71CC /* Pods-PDSCamera-SnapKit-dummy.m in Sources */,
-				5D49D448242ECBD9C7BD129A /* SnapKit.swift in Sources */,
-				2B809EB0A47867ED37258CB1 /* View+SnapKit.swift in Sources */,
-				1411EE63507E9BEB67E4D2A2 /* ViewController+SnapKit.swift in Sources */,
+				0335ED76D50F3B21AAF53330 /* Constraint.swift in Sources */,
+				A97C0B91B51831D6852E31B0 /* ConstraintAttributes.swift in Sources */,
+				5FE6D129A070F6AD080F40C4 /* ConstraintDescription.swift in Sources */,
+				1547F871600580031B25A11B /* ConstraintItem.swift in Sources */,
+				61DA301926043B24F352B341 /* ConstraintMaker.swift in Sources */,
+				736A5297AD0BE68ACFEB7CA3 /* ConstraintRelation.swift in Sources */,
+				432E0D0E142C13DE99F520A9 /* Debugging.swift in Sources */,
+				238BE5D35DA1F6972AA8B339 /* EdgeInsets.swift in Sources */,
+				B1945FE2D9680F5191765BCD /* LayoutConstraint.swift in Sources */,
+				A4A1D08C02318C4D740CCDAA /* Pods-PDSCamera-SnapKit-dummy.m in Sources */,
+				180981A072CDD402907CCB68 /* SnapKit.swift in Sources */,
+				A83B0D7DFA05106EAEC2E919 /* View+SnapKit.swift in Sources */,
+				499C26C25249170DB5B721A1 /* ViewController+SnapKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1555EA255178384B7C7C2B5 /* Sources */ = {
+		9163822A8210A7D951FAF260 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				289AA798CCC0C2AA4EE61825 /* Constraint.swift in Sources */,
-				8970FF7F0A79EA0B2D5C0DB4 /* ConstraintAttributes.swift in Sources */,
-				E6E0D627C9C67E3B9C0571BA /* ConstraintDescription.swift in Sources */,
-				0A5AA095C826436C8026598C /* ConstraintItem.swift in Sources */,
-				18A41D4CF1161300A5F55C72 /* ConstraintMaker.swift in Sources */,
-				73737BE878E3C0FE19E70DB6 /* ConstraintRelation.swift in Sources */,
-				28E8CA213D2E38D3766F441A /* Debugging.swift in Sources */,
-				70B6D3FFFB4CB4A1FA0A7662 /* EdgeInsets.swift in Sources */,
-				252A15CD14A345E7D1880842 /* LayoutConstraint.swift in Sources */,
-				C3D8803BC7939EFB996287E6 /* Pods-padashiDemo-SnapKit-dummy.m in Sources */,
-				E082F67C87252A0C3B5CC073 /* SnapKit.swift in Sources */,
-				833FF13830974016D398811F /* View+SnapKit.swift in Sources */,
-				7D00B803E07FDC999511E06A /* ViewController+SnapKit.swift in Sources */,
+				605530C01B632F0FA49B97E6 /* Pods-PDSCamera-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C66C990E78B133D4A599A6D7 /* Sources */ = {
+		A70AF005F1DEF9FC4048957E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97791DB175D7079E1BBE339E /* Alamofire.swift in Sources */,
-				D01A6B9CA3C0D6B1046D189B /* Download.swift in Sources */,
-				075A10745F6A251F22E17956 /* Manager.swift in Sources */,
-				34750B0740251ACE7E8EE134 /* MultipartFormData.swift in Sources */,
-				8A0D667620574D88C3BF0DFC /* ParameterEncoding.swift in Sources */,
-				F153C799408C73DB3F140A2B /* Pods-padashiDemo-Alamofire-dummy.m in Sources */,
-				3CC8370645136E335855FF7D /* Request.swift in Sources */,
-				139C843B38A8A3B5A91E3FAA /* ResponseSerialization.swift in Sources */,
-				D2CAF334C5ADF9CA9987A65A /* ServerTrustPolicy.swift in Sources */,
-				68908523C2A262324EBD0E97 /* Upload.swift in Sources */,
-				B2725E7D6985F90E9E2A0F45 /* Validation.swift in Sources */,
+				1E290FEC38EC5230278008B9 /* Pods-padashiDemo-SwiftyJSON-dummy.m in Sources */,
+				C26410D13249112CF7ADB5F1 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C825CAFB5906D08D43348E8A /* Sources */ = {
+		E0A0916910DADBE38D082524 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				343ECA66F3FB2EE37EBA2BC0 /* Pods-PDSCamera-dummy.m in Sources */,
+				001F35BA65D065E2F05B179A /* Pods-padashiDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D97F41440AEA373A1D6F0C24 /* Sources */ = {
+		F8C60EB55A9D76B1F363E3BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				893A376320888A3D261E73C6 /* Pods-padashiDemo-dummy.m in Sources */,
+				6991831E409924072007C53B /* Alamofire.swift in Sources */,
+				7123E95DF6C8A35A1FFEDF88 /* Download.swift in Sources */,
+				F8146F22FA71B42679D37752 /* Manager.swift in Sources */,
+				BB093FD0B2BCFBFBBD63D520 /* MultipartFormData.swift in Sources */,
+				BC6CC70438F576B7B1549D82 /* ParameterEncoding.swift in Sources */,
+				B115C52CF60093479AB18FE5 /* Pods-padashiDemo-Alamofire-dummy.m in Sources */,
+				CB64DF798DE73629FB8E7B7A /* Request.swift in Sources */,
+				B4F18DBBAC0031A36C566152 /* ResponseSerialization.swift in Sources */,
+				C6354A720AF0994B2918A33D /* ServerTrustPolicy.swift in Sources */,
+				E29581D9E1DEDF4233FA4575 /* Upload.swift in Sources */,
+				FD0C8AB315E4E9800B1D06C9 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0CB68EEDED242E785DCE9C48 /* PBXTargetDependency */ = {
+		398325EEA56F81F7C10E13F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-padashiDemo-Alamofire";
-			target = 0827FE217111300ABA609281 /* Pods-padashiDemo-Alamofire */;
-			targetProxy = AFF01DFA65157675A5881915 /* PBXContainerItemProxy */;
+			target = 08B598C80EDFBB18C9728849 /* Pods-padashiDemo-Alamofire */;
+			targetProxy = 49B4871BFB67F34F23EA53A5 /* PBXContainerItemProxy */;
 		};
-		5DFD2CBC0EC7C3B02FC1C7ED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PDSCamera-SnapKit";
-			target = 821DFEB4B1578936F5FE23C3 /* Pods-PDSCamera-SnapKit */;
-			targetProxy = 714076D3F07AF5CCB8E34F9C /* PBXContainerItemProxy */;
-		};
-		7A4F749CEE4E47A02FE72AC0 /* PBXTargetDependency */ = {
+		420958729B163286C0C86463 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-padashiDemo-SwiftyJSON";
-			target = 4749E9ED88B2AEA90762729E /* Pods-padashiDemo-SwiftyJSON */;
-			targetProxy = B80444370CFE607B1B73F6DD /* PBXContainerItemProxy */;
+			target = BC2BDC7477F8693E88DE60FF /* Pods-padashiDemo-SwiftyJSON */;
+			targetProxy = B0782F9B4DE4F29620810EFE /* PBXContainerItemProxy */;
 		};
-		F26D1AE14782C39562D735F2 /* PBXTargetDependency */ = {
+		6D756DB9CF39A6ED0FA5B8F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PDSCamera-SnapKit";
+			target = FEE4BB24B858AF7E1394B028 /* Pods-PDSCamera-SnapKit */;
+			targetProxy = 4C0FB6D087926D2B98757973 /* PBXContainerItemProxy */;
+		};
+		8076D5E42B65FFCF58FFE595 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-padashiDemo-SnapKit";
-			target = 9F95C3C36A3CACA478C0D3D5 /* Pods-padashiDemo-SnapKit */;
-			targetProxy = 7E233B89FA82EFA2CE4739FF /* PBXContainerItemProxy */;
+			target = 1E143F3009107241473A0DBB /* Pods-padashiDemo-SnapKit */;
+			targetProxy = 951BDD2EC16202DDABA97B65 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0418E62352828EC24BB6F4A0 /* Debug */ = {
+		021A822712160D0F7A4F672A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC41FF5FE4D33CE87DF43947 /* Pods-padashiDemo-SnapKit-Private.xcconfig */;
+			baseConfigurationReference = 1C2614FF75582AFE3F302964 /* Pods-padashiDemo-SnapKit-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -757,9 +757,64 @@
 			};
 			name = Debug;
 		};
-		0505111671DF23C0B7512921 /* Release */ = {
+		39BC3D88E66E61D46B84AE85 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 962E02293D5E4CAC43F776A4 /* Pods-padashiDemo-Alamofire-Private.xcconfig */;
+			baseConfigurationReference = C2C019B3B6D02B7FA7BABACA /* Pods-PDSCamera-SnapKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PDSCamera-SnapKit/Pods-PDSCamera-SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PDSCamera-SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PDSCamera-SnapKit/Pods-PDSCamera-SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3EC08D68D651D89B821EEA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450AA320654041E45AECC8D9 /* Pods-padashiDemo-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-padashiDemo-SwiftyJSON/Pods-padashiDemo-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-padashiDemo-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-padashiDemo-SwiftyJSON/Pods-padashiDemo-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59310B0B55F4DA27EC0DE0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C125EE5AA3801AB4B48E8982 /* Pods-padashiDemo-Alamofire-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -784,7 +839,37 @@
 			};
 			name = Release;
 		};
-		104E41B1FCB09518E3C509CB /* Release */ = {
+		65C8D928C224083A8EAFB9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D13642E6764458C573F6E8 /* Pods-PDSCamera.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PDSCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PDSCamera/Pods-PDSCamera.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PDSCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		695E0C579ADCF88624327820 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -818,9 +903,9 @@
 			};
 			name = Release;
 		};
-		27664D8C6C1B5F8125EC1E64 /* Debug */ = {
+		7E2A8B44C40613E2BEC235B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6B53A06CE12353EE34574DF /* Pods-PDSCamera.debug.xcconfig */;
+			baseConfigurationReference = C2C019B3B6D02B7FA7BABACA /* Pods-PDSCamera-SnapKit-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -829,16 +914,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PDSCamera/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PDSCamera-SnapKit/Pods-PDSCamera-SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PDSCamera-SnapKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PDSCamera/Pods-PDSCamera.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PDSCamera-SnapKit/Pods-PDSCamera-SnapKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PDSCamera;
+				PRODUCT_NAME = SnapKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -848,7 +931,91 @@
 			};
 			name = Debug;
 		};
-		2FED015CE3EEF15D9900AB33 /* Debug */ = {
+		893EB06A291446C6093B66DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDC78B56D1803439FC39FE6 /* Pods-padashiDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-padashiDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-padashiDemo/Pods-padashiDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_padashiDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		959E781A3E25A1986A1CDEA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450AA320654041E45AECC8D9 /* Pods-padashiDemo-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-padashiDemo-SwiftyJSON/Pods-padashiDemo-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-padashiDemo-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-padashiDemo-SwiftyJSON/Pods-padashiDemo-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7B1E67004276821768BD471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C2614FF75582AFE3F302964 /* Pods-padashiDemo-SnapKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-padashiDemo-SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B19A54D5BFE24F2FA0CC3CEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -887,9 +1054,9 @@
 			};
 			name = Debug;
 		};
-		3417A547902BD295D4346248 /* Debug */ = {
+		BF28A6EB5D6530D67F3BD358 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 962E02293D5E4CAC43F776A4 /* Pods-padashiDemo-Alamofire-Private.xcconfig */;
+			baseConfigurationReference = C125EE5AA3801AB4B48E8982 /* Pods-padashiDemo-Alamofire-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -915,9 +1082,9 @@
 			};
 			name = Debug;
 		};
-		75576F649DC85120BA68DBA1 /* Debug */ = {
+		C8DA8BB8318D10FD4EAA7CD2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F5536019D4D728426997AA7 /* Pods-padashiDemo-SwiftyJSON-Private.xcconfig */;
+			baseConfigurationReference = B4A8DD4ECE406DAEDE926178 /* Pods-padashiDemo.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -926,26 +1093,27 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-padashiDemo-SwiftyJSON/Pods-padashiDemo-SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-padashiDemo-SwiftyJSON/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-padashiDemo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-padashiDemo-SwiftyJSON/Pods-padashiDemo-SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyJSON;
+				MODULEMAP_FILE = "Target Support Files/Pods-padashiDemo/Pods-padashiDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_padashiDemo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		7A86F6E7CAA564907498CB9E /* Release */ = {
+		E8B8924E0ADE6E8688CCC00A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8732A138872298F579BA3366 /* Pods-PDSCamera.release.xcconfig */;
+			baseConfigurationReference = A782266C8FDC4372A018E508 /* Pods-PDSCamera.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -972,241 +1140,73 @@
 			};
 			name = Release;
 		};
-		8649CF5CB1A65B416FBB537A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F34A562DFA9F14C590ED74B /* Pods-padashiDemo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-padashiDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-padashiDemo/Pods-padashiDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_padashiDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9FE78A20E0009A9E6DFFE83B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6893534523C028BA01D5AEA7 /* Pods-padashiDemo.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-padashiDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-padashiDemo/Pods-padashiDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_padashiDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A395B9F2B095BC9D572ECA18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E99E074A56AB371C918E65A /* Pods-PDSCamera-SnapKit-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PDSCamera-SnapKit/Pods-PDSCamera-SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PDSCamera-SnapKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PDSCamera-SnapKit/Pods-PDSCamera-SnapKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CD162F55CC92CFDD6A50BAEB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC41FF5FE4D33CE87DF43947 /* Pods-padashiDemo-SnapKit-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-padashiDemo-SnapKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-padashiDemo-SnapKit/Pods-padashiDemo-SnapKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E8AC986CD87EE899BA9EB85E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F5536019D4D728426997AA7 /* Pods-padashiDemo-SwiftyJSON-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-padashiDemo-SwiftyJSON/Pods-padashiDemo-SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-padashiDemo-SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-padashiDemo-SwiftyJSON/Pods-padashiDemo-SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FA7A97A2247644C6ADFB54FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E99E074A56AB371C918E65A /* Pods-PDSCamera-SnapKit-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PDSCamera-SnapKit/Pods-PDSCamera-SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PDSCamera-SnapKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PDSCamera-SnapKit/Pods-PDSCamera-SnapKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26402930693E5BCCD3288D1E /* Build configuration list for PBXNativeTarget "Pods-padashiDemo-Alamofire" */ = {
+		27645A377B5551C8BAE8BC54 /* Build configuration list for PBXNativeTarget "Pods-PDSCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3417A547902BD295D4346248 /* Debug */,
-				0505111671DF23C0B7512921 /* Release */,
+				65C8D928C224083A8EAFB9C2 /* Debug */,
+				E8B8924E0ADE6E8688CCC00A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FD2CAE5740B9E02145BB268 /* Build configuration list for PBXNativeTarget "Pods-padashiDemo-SwiftyJSON" */ = {
+		368FE9010890ABF0526BB3D1 /* Build configuration list for PBXNativeTarget "Pods-padashiDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75576F649DC85120BA68DBA1 /* Debug */,
-				E8AC986CD87EE899BA9EB85E /* Release */,
+				893EB06A291446C6093B66DF /* Debug */,
+				C8DA8BB8318D10FD4EAA7CD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		351C449CA280E383B6832D69 /* Build configuration list for PBXNativeTarget "Pods-PDSCamera" */ = {
+		84411D9CBC12B147A2A6B9A0 /* Build configuration list for PBXNativeTarget "Pods-PDSCamera-SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27664D8C6C1B5F8125EC1E64 /* Debug */,
-				7A86F6E7CAA564907498CB9E /* Release */,
+				7E2A8B44C40613E2BEC235B0 /* Debug */,
+				39BC3D88E66E61D46B84AE85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5946DB2C40DCB4CB22449364 /* Build configuration list for PBXNativeTarget "Pods-padashiDemo-SnapKit" */ = {
+		922BB8F41E4E9171812BF761 /* Build configuration list for PBXNativeTarget "Pods-padashiDemo-SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0418E62352828EC24BB6F4A0 /* Debug */,
-				CD162F55CC92CFDD6A50BAEB /* Release */,
+				3EC08D68D651D89B821EEA86 /* Debug */,
+				959E781A3E25A1986A1CDEA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69C3B551889C53AA8786F867 /* Build configuration list for PBXProject "Pods" */ = {
+		CA97E2EA6F361CD0A4CDFD43 /* Build configuration list for PBXNativeTarget "Pods-padashiDemo-Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FED015CE3EEF15D9900AB33 /* Debug */,
-				104E41B1FCB09518E3C509CB /* Release */,
+				BF28A6EB5D6530D67F3BD358 /* Debug */,
+				59310B0B55F4DA27EC0DE0A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD63A626507FDDD0A0A30AA3 /* Build configuration list for PBXNativeTarget "Pods-PDSCamera-SnapKit" */ = {
+		E3CFB1A370217EC499B37EFC /* Build configuration list for PBXNativeTarget "Pods-padashiDemo-SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA7A97A2247644C6ADFB54FA /* Debug */,
-				A395B9F2B095BC9D572ECA18 /* Release */,
+				021A822712160D0F7A4F672A /* Debug */,
+				A7B1E67004276821768BD471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F06F2EBD4C7F3931335F0E41 /* Build configuration list for PBXNativeTarget "Pods-padashiDemo" */ = {
+		FAE7D7D97A8120D4D2375D12 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FE78A20E0009A9E6DFFE83B /* Debug */,
-				8649CF5CB1A65B416FBB537A /* Release */,
+				B19A54D5BFE24F2FA0CC3CEF /* Debug */,
+				695E0C579ADCF88624327820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4241C112EA968E7B7DD5FB42 /* Project object */;
+	rootObject = 81AFC95B2B9194B26329DDD9 /* Project object */;
 }

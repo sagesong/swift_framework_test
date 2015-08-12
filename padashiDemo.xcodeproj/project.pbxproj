@@ -15,6 +15,8 @@
 		D686C3E41B798A5C00AA0305 /* padashiDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686C3E31B798A5C00AA0305 /* padashiDemoTests.swift */; };
 		D686C41C1B7995A600AA0305 /* PDSCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D686C41B1B7995A600AA0305 /* PDSCamera.framework */; };
 		D686C41D1B7995A600AA0305 /* PDSCamera.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D686C41B1B7995A600AA0305 /* PDSCamera.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D686C5B31B7AE29700AA0305 /* PDSRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D686C5B21B7AE29700AA0305 /* PDSRecorder.framework */; };
+		D686C5B41B7AE29700AA0305 /* PDSRecorder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D686C5B21B7AE29700AA0305 /* PDSRecorder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E13D2342F62B80AAE57D4445 /* Pods_padashiDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5153CC1A99E3B929B7D6BBD6 /* Pods_padashiDemo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				D686C5B41B7AE29700AA0305 /* PDSRecorder.framework in Embed Frameworks */,
 				D686C41D1B7995A600AA0305 /* PDSCamera.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -57,6 +60,7 @@
 		D686C3E31B798A5C00AA0305 /* padashiDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = padashiDemoTests.swift; sourceTree = "<group>"; };
 		D686C4191B79954200AA0305 /* PDSCamera.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDSCamera.framework; path = "PDSCamera/build/Debug-iphoneos/PDSCamera.framework"; sourceTree = "<group>"; };
 		D686C41B1B7995A600AA0305 /* PDSCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = PDSCamera.framework; path = "/Users/lightning/Library/Developer/Xcode/DerivedData/padashiDemo-efefgokrfibuarhddhabfclmcamf/Build/Products/Debug-iphoneos/PDSCamera.framework"; sourceTree = "<absolute>"; };
+		D686C5B21B7AE29700AA0305 /* PDSRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = PDSRecorder.framework; path = "/Users/lightning/Library/Developer/Xcode/DerivedData/padashiDemo-efefgokrfibuarhddhabfclmcamf/Build/Products/Debug-iphoneos/PDSRecorder.framework"; sourceTree = "<absolute>"; };
 		F3A4DC25A113802E45153CB0 /* Pods-padashiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-padashiDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-padashiDemo/Pods-padashiDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +71,7 @@
 			files = (
 				E13D2342F62B80AAE57D4445 /* Pods_padashiDemo.framework in Frameworks */,
 				D686C41C1B7995A600AA0305 /* PDSCamera.framework in Frameworks */,
+				D686C5B31B7AE29700AA0305 /* PDSRecorder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +97,7 @@
 		D686C3BF1B798A5C00AA0305 = {
 			isa = PBXGroup;
 			children = (
+				D686C5B21B7AE29700AA0305 /* PDSRecorder.framework */,
 				D686C41B1B7995A600AA0305 /* PDSCamera.framework */,
 				D686C3CA1B798A5C00AA0305 /* padashiDemo */,
 				D686C3E01B798A5C00AA0305 /* padashiDemoTests */,
@@ -440,6 +446,8 @@
 			baseConfigurationReference = F3A4DC25A113802E45153CB0 /* Pods-padashiDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PDSCamera/build/Debug-iphoneos",
@@ -457,6 +465,7 @@
 			baseConfigurationReference = 9DF075FCE5000D89911C49C8 /* Pods-padashiDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PDSCamera/build/Debug-iphoneos",
