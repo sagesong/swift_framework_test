@@ -33,7 +33,7 @@
 		D6023D221B7B5C0D00B62674 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6023D041B7B5C0D00B62674 /* SpringLabel.swift */; };
 		D6023D231B7B5C0D00B62674 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6023D051B7B5C0D00B62674 /* SpringTextField.swift */; };
 		D6023D241B7B5C0D00B62674 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6023D061B7B5C0D00B62674 /* SpringTextView.swift */; };
-		D6023D251B7B5C0D00B62674 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6023D071B7B5C0D00B62674 /* SpringView.swift */; };
+		D6023D251B7B5C0D00B62674 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6023D071B7B5C0D00B62674 /* SpringView.swift */; settings = {ATTRIBUTES = (Private, ); }; };
 		D6023D261B7B5C0D00B62674 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6023D081B7B5C0D00B62674 /* TransitionManager.swift */; };
 		D6023D271B7B5C0D00B62674 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6023D091B7B5C0D00B62674 /* TransitionZoom.swift */; };
 		D6023D281B7B5C0D00B62674 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6023D0A1B7B5C0D00B62674 /* UnwindSegue.swift */; };
@@ -349,8 +349,8 @@
 				D6023D281B7B5C0D00B62674 /* UnwindSegue.swift in Sources */,
 				D6023D261B7B5C0D00B62674 /* TransitionManager.swift in Sources */,
 				D6023D0E1B7B5C0D00B62674 /* BlurView.swift in Sources */,
-				D6023D251B7B5C0D00B62674 /* SpringView.swift in Sources */,
 				D6023D271B7B5C0D00B62674 /* TransitionZoom.swift in Sources */,
+				D6023D251B7B5C0D00B62674 /* SpringView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

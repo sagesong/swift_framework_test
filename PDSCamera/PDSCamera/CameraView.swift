@@ -18,8 +18,7 @@ public class CameraView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        AVCaptureVideoPreviewLayer(layer: self.layer).videoGravity = AVLayerVideoGravityResizeAspectFill
-        
+        AVCaptureVideoPreviewLayer(layer: self.layer).videoGravity = AVLayerVideoGravityResizeAspect
     }
     
     convenience init(){

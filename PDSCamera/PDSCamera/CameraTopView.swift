@@ -15,10 +15,17 @@ enum cameraTopButtonType : Int{
     case switchCamera
 }
 
+protocol CameraTopViewDelagate {
+    func backBtnClicked()
+    func flashBtnClicked()
+    func microBtnClicked()
+    func switchBtnClicked()
+}
+
 class CameraTopView: UIView {
     // constants
     let btnNum = 4
-    
+    var delegate : CameraTopViewDelagate?
     var closures : (()->())?
     
     override init(frame: CGRect) {
@@ -38,8 +45,17 @@ class CameraTopView: UIView {
             self.addSubview(btn)
             btn.tag = i
             btn.addTarget(self, action: "topViewBtnClicked:", forControlEvents: .TouchUpInside)
-            
+            btn.backgroundColor = UIColor.grayColor()
+            btn.alpha = 0.2
         }
+        let back = self.subviews[0] as! UIButton
+        back.setTitle("后退", forState: .Normal)
+        let flash = self.subviews[1] as! UIButton
+        flash.setTitle("闪光", forState: .Normal)
+        let micro = self.subviews[2] as! UIButton
+        micro.setTitle("静音", forState: .Normal)
+        let swit = self.subviews[3] as! UIButton
+        swit.setTitle("转换", forState: .Normal)
     }
     
     func topViewBtnClicked(btn : UIButton) -> Void{
@@ -50,13 +66,13 @@ class CameraTopView: UIView {
         
         switch btnType {
         case .back :
-            print("back")
+            delegate?.backBtnClicked()
         case .flash :
-            print("flash")
+            delegate?.flashBtnClicked()
         case .micro :
-            print("micro")
+            delegate?.microBtnClicked()
         case .switchCamera :
-            print("switch")
+            delegate?.switchBtnClicked()
         default :
             print("default")
         }
@@ -68,39 +84,39 @@ class CameraTopView: UIView {
         let btnW = self.frame.size.width / CGFloat(self.btnNum)
         
         var btn: UIButton = self.subviews[0] as! UIButton
-        btn.backgroundColor = UIColor.redColor()
+//        btn.backgroundColor = UIColor.redColor()
         
         var btn1: UIButton = self.subviews[1] as! UIButton
-        btn1.backgroundColor = UIColor.blueColor()
+//        btn1.backgroundColor = UIColor.blueColor()
         
         var btn2: UIButton = self.subviews[2] as! UIButton
-        btn2.backgroundColor = UIColor.orangeColor()
+//        btn2.backgroundColor = UIColor.orangeColor()
         
         var btn3: UIButton = self.subviews[3] as! UIButton
-        btn3.backgroundColor = UIColor.redColor()
+//        btn3.backgroundColor = UIColor.redColor()
         
         btn.snp_makeConstraints { (make) -> Void in
-            make.width.equalTo(btnW)
+            make.width.equalTo(btn1)
             make.height.equalTo(self)
             make.leading.equalTo(self)
             make.right.equalTo(btn1.snp_left)
         }
         
         btn1.snp_makeConstraints { (make) -> Void in
-            make.width.equalTo(btnW)
+            make.width.equalTo(btn2)
             make.height.equalTo(self)
             make.right.equalTo(btn2.snp_left)
         }
         
         btn2.snp_makeConstraints { (make) -> Void in
-            make.width.equalTo(btnW)
+            make.width.equalTo(btn3)
             make.height.equalTo(self)
             make.right.equalTo(btn3.snp_left)
             
         }
         
         btn3.snp_makeConstraints { (make) -> Void in
-            make.width.equalTo(btnW)
+//            make.width.equalTo(btn)
             make.height.equalTo(self)
             make.right.equalTo(self)
         }

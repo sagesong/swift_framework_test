@@ -7,9 +7,15 @@
 //
 
 import UIKit
-
+import AVFoundation
 @objc
-public class CameraViewController: UIViewController {
+public class CameraViewController: UIViewController,CameraTopViewDelagate {
+    
+    lazy var captureSessionManager:CameraManage = {
+        var manager = CameraManage()
+//        manager.setupCaptureSession()
+        return manager
+    }()
     
     override public func loadView() {
         self.view = CameraView()
@@ -17,15 +23,24 @@ public class CameraViewController: UIViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.brownColor()
+        self.view.backgroundColor = UIColor.whiteColor()
         
         var overlayView = CameraOverlayView()
         self.view.addSubview(overlayView)
 //        overlayView.frame = self.view.frame
-        overlayView.backgroundColor = UIColor.blackColor()
+        overlayView.backgroundColor = UIColor.clearColor()
         overlayView.snp_makeConstraints { (make) -> Void in
             make.edges.equalTo(self.view)
         }
+        overlayView.topView.delegate = self
+        let captureLayer : AVCaptureVideoPreviewLayer = self.view.layer as! AVCaptureVideoPreviewLayer
+        captureLayer.session = captureSessionManager.captureSession
+        
+    }
+    
+    public override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        captureSessionManager.captureSession.startRunning()
         
     }
 
@@ -34,7 +49,33 @@ public class CameraViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    public override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+        
+    }
     
     
-
+    public override func shouldAutorotate() -> Bool {
+//        print("\(self.view.frame)")
+        return true
+    }
+    
+    // CameraTopViewDelegate
+    func backBtnClicked() {
+        print("back")
+        self.dismissViewControllerAnimated(true, completion: nil)
+        captureSessionManager.captureSession.startRunning()
+    }
+    
+    func flashBtnClicked() {
+        print("flash")
+    }
+    
+    func microBtnClicked() {
+        print("micro")
+    }
+    
+    func switchBtnClicked() {
+        print("switch")
+        captureSessionManager.switchCamera()
+    }
 }
