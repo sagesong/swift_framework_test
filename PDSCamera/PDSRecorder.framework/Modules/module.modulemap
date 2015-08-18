@@ -1,0 +1,10 @@
+framework module PDSRecorder {
+  umbrella header "PDSRecorder.h"
+
+  export *
+  module * { export * }
+}
+
+module PDSRecorder.Swift {
+    header "PDSRecorder-Swift.h"
+}

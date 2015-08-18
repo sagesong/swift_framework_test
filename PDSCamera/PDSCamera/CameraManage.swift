@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import AssetsLibrary
 
 protocol CameraManageDelegate {
     func cameraOutput(sampleBuffer:CMSampleBufferRef,captureConnection:AVCaptureConnection)
@@ -21,20 +22,33 @@ public class CameraManage : NSObject,AVCaptureVideoDataOutputSampleBufferDelegat
     public var captureSession : AVCaptureSession
     var videoDeviceInput : AVCaptureDeviceInput?
     var audioDeviceInput : AVCaptureDeviceInput?
-    var videoQueue : dispatch_queue_t
+    
+    var stillImageOutput : AVCaptureStillImageOutput?
+    var videoOutput : AVCaptureVideoDataOutput?
+    let videoQueue : dispatch_queue_t
+    
+    var currentOrientation : AVCaptureVideoOrientation = AVCaptureVideoOrientation.Portrait {
+        willSet {
+            
+        }
+        
+        didSet {
+            
+        }
+    }
     
     var delegate:CameraManageDelegate?
-    
+    var _flashEnable : Bool = false
     public var flashEnable : Bool {
-        get { return self.flashEnable}
+        get { return _flashEnable}
         set {
-            if newValue == flashEnable{
+            if newValue == _flashEnable{
                 return
             } else {
-                self.flashEnable = newValue
+                self._flashEnable = newValue
                 let videoDevice = videoDeviceInput!.device
                 videoDevice.lockForConfiguration(nil)
-                if self.flashEnable {
+                if self._flashEnable {
                     videoDevice.flashMode = .On
                 } else {
                     videoDevice.flashMode = .Off
@@ -47,6 +61,7 @@ public class CameraManage : NSObject,AVCaptureVideoDataOutputSampleBufferDelegat
 
         captureSession = AVCaptureSession()
         videoQueue = dispatch_queue_create("video queue", DISPATCH_QUEUE_SERIAL)
+        currentOrientation = .Portrait
         super.init()
 
         setupCaptureSession()
@@ -71,8 +86,9 @@ public class CameraManage : NSObject,AVCaptureVideoDataOutputSampleBufferDelegat
             print("session failed add video device input")
         }
         
-        var videoOutput = AVCaptureVideoDataOutput()
-        videoOutput.setSampleBufferDelegate(self, queue: videoQueue)
+        videoOutput = AVCaptureVideoDataOutput()
+        videoOutput!.setSampleBufferDelegate(self, queue: videoQueue)
+        
         if captureSession.canAddOutput(videoOutput)
         {
             captureSession.addOutput(videoOutput)
@@ -99,7 +115,14 @@ public class CameraManage : NSObject,AVCaptureVideoDataOutputSampleBufferDelegat
             print("session failed add audio output")
         }
         
-        
+        stillImageOutput = AVCaptureStillImageOutput()
+        if captureSession.canAddOutput(stillImageOutput)
+        {
+            stillImageOutput?.outputSettings = [AVVideoCodecKey : AVVideoCodecJPEG]
+            captureSession.addOutput(stillImageOutput)
+        } else {
+            print("session failed add stillImage output")
+        }
     }
     //MRAK : Camera Function
     public func switchCamera() {
@@ -135,6 +158,26 @@ public class CameraManage : NSObject,AVCaptureVideoDataOutputSampleBufferDelegat
             captureSession.addInput(newDeviceInput)
         }
         captureSession.commitConfiguration()
+        videoDeviceInput = newDeviceInput
+
+    }
+    
+    public func takeSnap(){
+        if let Output = stillImageOutput {
+            Output.connectionWithMediaType(AVMediaTypeVideo).videoOrientation = currentOrientation
+            stillImageOutput?.captureStillImageAsynchronouslyFromConnection(Output.connectionWithMediaType(AVMediaTypeVideo), completionHandler: { (sampleBuffer, error) -> Void in
+                let imageData : NSData = AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation(sampleBuffer)
+                let image : UIImage = UIImage(data: imageData)!
+                if (sampleBuffer != nil) {
+                    let library = ALAssetsLibrary()
+                    
+                    library.writeImageToSavedPhotosAlbum(image.CGImage, orientation: ALAssetOrientation(rawValue: image.imageOrientation.rawValue)!, completionBlock: { (url, error) -> Void in
+                    })
+                    
+                }
+            })
+            
+        }
     }
     
 // MARK: Delegate

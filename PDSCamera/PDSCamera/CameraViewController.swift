@@ -35,6 +35,7 @@ public class CameraViewController: UIViewController,CameraTopViewDelagate {
         overlayView.topView.delegate = self
         let captureLayer : AVCaptureVideoPreviewLayer = self.view.layer as! AVCaptureVideoPreviewLayer
         captureLayer.session = captureSessionManager.captureSession
+        captureSessionManager.flashEnable = true
         
     }
     
@@ -68,10 +69,12 @@ public class CameraViewController: UIViewController,CameraTopViewDelagate {
     
     func flashBtnClicked() {
         print("flash")
+        captureSessionManager.flashEnable = !captureSessionManager.flashEnable
     }
     
     func microBtnClicked() {
         print("micro")
+        captureSessionManager.takeSnap()
     }
     
     func switchBtnClicked() {

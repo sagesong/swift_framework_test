@@ -123,6 +123,7 @@
 		D686C5171B79D69700AA0305 /* CameraView.swift in Headers */ = {isa = PBXBuildFile; fileRef = D686C50A1B79979900AA0305 /* CameraView.swift */; };
 		D686C5181B79D69700AA0305 /* CameraOverlayView.swift in Headers */ = {isa = PBXBuildFile; fileRef = D686C50D1B79A47F00AA0305 /* CameraOverlayView.swift */; };
 		D686C5191B79D69700AA0305 /* CameraBottomView.swift in Headers */ = {isa = PBXBuildFile; fileRef = D686C50F1B79A56100AA0305 /* CameraBottomView.swift */; };
+		D6F0CF811B81FF9800B2EBE4 /* PDSVideoWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F0CF801B81FF9800B2EBE4 /* PDSVideoWriter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -250,6 +251,7 @@
 		D686C50D1B79A47F00AA0305 /* CameraOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOverlayView.swift; sourceTree = "<group>"; };
 		D686C50F1B79A56100AA0305 /* CameraBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraBottomView.swift; sourceTree = "<group>"; };
 		D686C5111B79A71400AA0305 /* CameraTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTopView.swift; sourceTree = "<group>"; };
+		D6F0CF801B81FF9800B2EBE4 /* PDSVideoWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDSVideoWriter.swift; sourceTree = "<group>"; };
 		ED0DF07A00252BC1AFA1213F /* Pods-PDSCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDSCamera.release.xcconfig"; path = "../Pods/Target Support Files/Pods-PDSCamera/Pods-PDSCamera.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -319,6 +321,7 @@
 				D686C3FC1B798C1400AA0305 /* PDSCamera.h */,
 				D686C4131B79940C00AA0305 /* CameraManage.swift */,
 				D686C4171B79950900AA0305 /* CameraViewController.swift */,
+				D6F0CF801B81FF9800B2EBE4 /* PDSVideoWriter.swift */,
 				D686C3FA1B798C1400AA0305 /* Supporting Files */,
 			);
 			path = PDSCamera;
@@ -1003,6 +1006,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6F0CF811B81FF9800B2EBE4 /* PDSVideoWriter.swift in Sources */,
 				D686C50E1B79A47F00AA0305 /* CameraOverlayView.swift in Sources */,
 				D686C5101B79A56100AA0305 /* CameraBottomView.swift in Sources */,
 				D686C50B1B79979900AA0305 /* CameraView.swift in Sources */,

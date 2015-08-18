@@ -20,28 +20,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PDSCamera/PDSCamera/CameraManage.swift"
-            timestampString = "461237303.987698"
+            timestampString = "461503138.110112"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
-            landmarkName = "setupCaptureSession()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PDSCamera/PDSCamera/CameraManage.swift"
-            timestampString = "461238495.653266"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "setupCaptureSession()"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "switchCamera()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
