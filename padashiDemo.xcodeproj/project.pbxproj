@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B36561D1B8B7FB000166869 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B36561C1B8B7FB000166869 /* testViewController.swift */; };
+		0B36561F1B8B805B00166869 /* ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B36561E1B8B805B00166869 /* ViewLayout.swift */; };
 		D686C3CE1B798A5C00AA0305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686C3CD1B798A5C00AA0305 /* AppDelegate.swift */; };
 		D686C3D01B798A5C00AA0305 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686C3CF1B798A5C00AA0305 /* ViewController.swift */; };
 		D686C3D31B798A5C00AA0305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D686C3D11B798A5C00AA0305 /* Main.storyboard */; };
 		D686C3D51B798A5C00AA0305 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D686C3D41B798A5C00AA0305 /* Images.xcassets */; };
 		D686C3D81B798A5C00AA0305 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D686C3D61B798A5C00AA0305 /* LaunchScreen.xib */; };
 		D686C3E41B798A5C00AA0305 /* padashiDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686C3E31B798A5C00AA0305 /* padashiDemoTests.swift */; };
-		D686C41C1B7995A600AA0305 /* PDSCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D686C41B1B7995A600AA0305 /* PDSCamera.framework */; };
-		D686C41D1B7995A600AA0305 /* PDSCamera.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D686C41B1B7995A600AA0305 /* PDSCamera.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D686C5B31B7AE29700AA0305 /* PDSRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D686C5B21B7AE29700AA0305 /* PDSRecorder.framework */; };
-		D686C5B41B7AE29700AA0305 /* PDSRecorder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D686C5B21B7AE29700AA0305 /* PDSRecorder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E13D2342F62B80AAE57D4445 /* Pods_padashiDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5153CC1A99E3B929B7D6BBD6 /* Pods_padashiDemo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -30,22 +28,9 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		D686C41E1B7995A700AA0305 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D686C5B41B7AE29700AA0305 /* PDSRecorder.framework in Embed Frameworks */,
-				D686C41D1B7995A600AA0305 /* PDSCamera.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		0B36561C1B8B7FB000166869 /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		0B36561E1B8B805B00166869 /* ViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewLayout.swift; sourceTree = "<group>"; };
 		5153CC1A99E3B929B7D6BBD6 /* Pods_padashiDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_padashiDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF075FCE5000D89911C49C8 /* Pods-padashiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-padashiDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-padashiDemo/Pods-padashiDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D686C3C81B798A5C00AA0305 /* padashiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = padashiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,8 +44,6 @@
 		D686C3E21B798A5C00AA0305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D686C3E31B798A5C00AA0305 /* padashiDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = padashiDemoTests.swift; sourceTree = "<group>"; };
 		D686C4191B79954200AA0305 /* PDSCamera.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDSCamera.framework; path = "PDSCamera/build/Debug-iphoneos/PDSCamera.framework"; sourceTree = "<group>"; };
-		D686C41B1B7995A600AA0305 /* PDSCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = PDSCamera.framework; path = "/Users/lightning/Library/Developer/Xcode/DerivedData/padashiDemo-efefgokrfibuarhddhabfclmcamf/Build/Products/Debug-iphoneos/PDSCamera.framework"; sourceTree = "<absolute>"; };
-		D686C5B21B7AE29700AA0305 /* PDSRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = PDSRecorder.framework; path = "/Users/lightning/Library/Developer/Xcode/DerivedData/padashiDemo-efefgokrfibuarhddhabfclmcamf/Build/Products/Debug-iphoneos/PDSRecorder.framework"; sourceTree = "<absolute>"; };
 		F3A4DC25A113802E45153CB0 /* Pods-padashiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-padashiDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-padashiDemo/Pods-padashiDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,8 +53,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E13D2342F62B80AAE57D4445 /* Pods_padashiDemo.framework in Frameworks */,
-				D686C41C1B7995A600AA0305 /* PDSCamera.framework in Frameworks */,
-				D686C5B31B7AE29700AA0305 /* PDSRecorder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +78,6 @@
 		D686C3BF1B798A5C00AA0305 = {
 			isa = PBXGroup;
 			children = (
-				D686C5B21B7AE29700AA0305 /* PDSRecorder.framework */,
-				D686C41B1B7995A600AA0305 /* PDSCamera.framework */,
 				D686C3CA1B798A5C00AA0305 /* padashiDemo */,
 				D686C3E01B798A5C00AA0305 /* padashiDemoTests */,
 				D686C3C91B798A5C00AA0305 /* Products */,
@@ -121,6 +100,8 @@
 			children = (
 				D686C3CD1B798A5C00AA0305 /* AppDelegate.swift */,
 				D686C3CF1B798A5C00AA0305 /* ViewController.swift */,
+				0B36561C1B8B7FB000166869 /* testViewController.swift */,
+				0B36561E1B8B805B00166869 /* ViewLayout.swift */,
 				D686C3D11B798A5C00AA0305 /* Main.storyboard */,
 				D686C3D41B798A5C00AA0305 /* Images.xcassets */,
 				D686C3D61B798A5C00AA0305 /* LaunchScreen.xib */,
@@ -176,7 +157,6 @@
 				D686C3C61B798A5C00AA0305 /* Resources */,
 				C911AB4723AAC54A8AF39FE0 /* Embed Pods Frameworks */,
 				A95E6F2E7D87BD8E8A9CAFDE /* Copy Pods Resources */,
-				D686C41E1B7995A700AA0305 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -315,6 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B36561F1B8B805B00166869 /* ViewLayout.swift in Sources */,
+				0B36561D1B8B7FB000166869 /* testViewController.swift in Sources */,
 				D686C3D01B798A5C00AA0305 /* ViewController.swift in Sources */,
 				D686C3CE1B798A5C00AA0305 /* AppDelegate.swift in Sources */,
 			);

@@ -12,16 +12,16 @@ import AVFoundation
 public class PDSVideoWriter {
     private var writer : AVAssetWriter?
     private var videoWriterInput : AVAssetWriterInput?
-    var inputSetting : Dictionary? = [String : AnyObject]()
+//    var inputSetting : Dictionary? = [String : AnyObject]()
     var fileUrl : NSURL?
     
     var isRecording:Bool
     init(){
-        
+        isRecording = true
     }
     init(videoInputSetting : [String : AnyObject]?,_fileUrl:NSURL){
         isRecording = false
-        inputSetting = videoInputSetting
+//        inputSetting = videoInputSetting
         fileUrl = _fileUrl
     }
     
@@ -39,18 +39,18 @@ public class PDSVideoWriter {
             print("fileUrl can't be nil")
             return
         }
-        var error : NSErrorPointer
-        writer = AVAssetWriter(URL: fileUrl, fileType: AVFileTypeMPEG4, error: error)
+//        var error : NSErrorPointer
+//        writer = AVAssetWriter(URL: fileUrl, fileType: AVFileTypeMPEG4, error: error)
         
-        if (inputSetting != nil)
-        {
-            videoWriterInput = AVAssetWriterInput(mediaType: AVMediaTypeVideo, outputSettings: inputSetting)
-        }
-        if let input = videoWriterInput {
-            if writer!.canAddInput(input){
-                writer!.addInput(input)
-            }
-        }
+//        if (inputSetting != nil)
+//        {
+//            videoWriterInput = AVAssetWriterInput(mediaType: AVMediaTypeVideo, outputSettings: inputSetting)
+//        }
+//        if let input = videoWriterInput {
+//            if writer!.canAddInput(input){
+//                writer!.addInput(input)
+//            }
+//        }
         
 
         

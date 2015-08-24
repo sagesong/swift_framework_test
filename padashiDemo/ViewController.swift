@@ -8,7 +8,6 @@
 
 import UIKit
 import SnapKit
-import PDSCamera
 
 class ViewController: UIViewController {
     lazy var startBtn : UIButton = {
@@ -42,8 +41,10 @@ class ViewController: UIViewController {
     func cameraClick()
     {
         print("camera btn clicked")
-        var cameraController = CameraViewController()
-        self.presentViewController(cameraController, animated: true, completion: nil)
+//        var cameraController = CameraViewController()
+//        self.presentViewController(cameraController, animated: true, completion: nil)
+        var test = testViewController()
+        self.presentViewController(test, animated: true, completion: nil)
     }
     
     func setupConstrains()
