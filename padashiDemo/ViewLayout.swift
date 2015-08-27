@@ -10,27 +10,48 @@ import UIKit
 
 class ViewLayout: UICollectionViewLayout {
     var center:CGPoint?
-    var radius:CGFloat?
-    var cellCount:Int8?
-    
+    var radius:CGFloat = 60
+    var cellCount:Int?
+    var modlesArray:[AnyObject]?
     
     override func prepareLayout() {
+        super.prepareLayout()
+        let size : CGSize? = self.collectionView?.frame.size
+        cellCount = self.collectionView?.numberOfItemsInSection(0)
+        center = CGPointMake(size!.width / 2, size!.height / 2)
         
     }
     
     override func collectionViewContentSize() -> CGSize {
-        return CGSizeZero
+        
+        return self.collectionView!.frame.size
     }
     
     override func layoutAttributesForItemAtIndexPath(indexPath: NSIndexPath) -> UICollectionViewLayoutAttributes! {
-        return nil
+        var attributes = UICollectionViewLayoutAttributes(forCellWithIndexPath: indexPath)
+        if let modles = modlesArray {
+            var string = modles[indexPath.item] as! String
+            
+        }
+        attributes.size = CGSizeMake(30, 30)
+        let distance = cos(Double(indexPath.item)*M_PI * 2 / Double(cellCount!)) * Double(radius)
+        let y = sin(Double(indexPath.item)*M_PI * 2 / Double(cellCount!)) * Double(radius)
+        attributes.center = CGPointMake(center!.x + CGFloat(distance) , center!.y + CGFloat(y))
+        return attributes
     }
     
     override func layoutAttributesForElementsInRect(rect: CGRect) -> [AnyObject]? {
-        return nil
+        var attrs = [UICollectionViewLayoutAttributes]()
+        for i in 0..<cellCount!
+        {
+            var indexPath = NSIndexPath(forItem: i , inSection: 0)
+            let attri = self.layoutAttributesForItemAtIndexPath(indexPath)
+            attrs.append(attri)
+        }
+        return attrs
     }
     
-    override func initialLayoutAttributesForAppearingItemAtIndexPath(itemIndexPath: NSIndexPath) -> UICollectionViewLayoutAttributes? {
-        return nil;
-    }
+//    override func initialLayoutAttributesForAppearingItemAtIndexPath(itemIndexPath: NSIndexPath) -> UICollectionViewLayoutAttributes? {
+//        return nil;
+//    }
 }

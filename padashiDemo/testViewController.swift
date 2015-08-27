@@ -9,17 +9,26 @@
 import UIKit
 import SnapKit
 
-class testViewController: UIViewController {
+class testViewController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate {
     var collection : UICollectionView?
-    
+    var modles : Array<String>?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        var layout : ViewLayout = ViewLayout()
-//        collection = UICollectionView(frame: CGRectZero, collectionViewLayout: layout)
+        var layout : ViewLayout = ViewLayout()
+        modles = ["handsome","good","big"]
+        layout.modlesArray = modles
+        collection = UICollectionView(frame: CGRectZero, collectionViewLayout: layout)
+        collection?.dataSource = self
+        collection?.delegate = self
+        collection?.backgroundColor = UIColor.purpleColor()
+        self.view.addSubview(collection!)
+        collection!.snp_makeConstraints { (make) -> Void in
+            make.edges.equalTo(self.view)
+        }
         self.view.backgroundColor = UIColor.purpleColor()
         var circle = UIView()
-        self.view.addSubview(circle)
+        collection!.addSubview(circle)
         circle.snp_makeConstraints { (make) -> Void in
             make.center.equalTo(self.view)
             make.width.equalTo(100)
@@ -29,14 +38,27 @@ class testViewController: UIViewController {
         circle.layer.cornerRadius = 50;
         circle.layer.masksToBounds = true
         // Do any additional setup after loading the view.
+        collection?.registerClass(CollectionViewCell.classForCoder(), forCellWithReuseIdentifier: "cell")
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func setupCollectionView()
+    {
+        
     }
     
-
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
+    {
+        return modles!.count
+    }
+    
+    // The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
+    {
+        var cell : CollectionViewCell? = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as? CollectionViewCell ?? CollectionViewCell(frame: CGRectZero)
+        cell!.lable?.text = modles![indexPath.row]
+        return cell!
+    }
  
 
 }
