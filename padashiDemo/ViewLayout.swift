@@ -30,12 +30,14 @@ class ViewLayout: UICollectionViewLayout {
     override func layoutAttributesForItemAtIndexPath(indexPath: NSIndexPath) -> UICollectionViewLayoutAttributes! {
         var attributes = UICollectionViewLayoutAttributes(forCellWithIndexPath: indexPath)
         if let modles = modlesArray {
-            var string = modles[indexPath.item] as! String
-            
+            var string : String = modles[indexPath.item] as! String
+            let size = string.sizeWithAttributes([NSFontAttributeName : UIFont.systemFontOfSize(18)])
+            let wider = size.width > size.height ? size.width : size.height
+            attributes.size = CGSizeMake(wider, wider)
         }
-        attributes.size = CGSizeMake(30, 30)
-        let distance = cos(Double(indexPath.item)*M_PI * 2 / Double(cellCount!)) * Double(radius)
-        let y = sin(Double(indexPath.item)*M_PI * 2 / Double(cellCount!)) * Double(radius)
+//        attributes.size = CGSizeMake(30, 30)
+        let distance = cos(Double(indexPath.item)*M_PI * 2 / Double(cellCount!)) * Double(radius + CGFloat( arc4random_uniform(30)) + attributes.size.width * 0.5)
+        let y = sin(Double(indexPath.item)*M_PI * 2 / Double(cellCount!)) * Double(radius + CGFloat( arc4random_uniform(30)) + attributes.size.width * 0.5)
         attributes.center = CGPointMake(center!.x + CGFloat(distance) , center!.y + CGFloat(y))
         return attributes
     }
@@ -51,7 +53,8 @@ class ViewLayout: UICollectionViewLayout {
         return attrs
     }
     
-//    override func initialLayoutAttributesForAppearingItemAtIndexPath(itemIndexPath: NSIndexPath) -> UICollectionViewLayoutAttributes? {
-//        return nil;
-//    }
+    override func initialLayoutAttributesForAppearingItemAtIndexPath(itemIndexPath: NSIndexPath) -> UICollectionViewLayoutAttributes? {
+        
+        return nil;
+    }
 }
