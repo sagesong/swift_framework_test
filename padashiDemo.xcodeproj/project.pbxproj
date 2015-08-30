@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		0B36561D1B8B7FB000166869 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B36561C1B8B7FB000166869 /* testViewController.swift */; };
 		0B36561F1B8B805B00166869 /* ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B36561E1B8B805B00166869 /* ViewLayout.swift */; };
+		0B3656221B9313DA00166869 /* CustomViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3656211B9313DA00166869 /* CustomViewLayout.swift */; };
+		0B3656241B93140400166869 /* AnimationAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3656231B93140400166869 /* AnimationAttributes.swift */; };
+		0B3656261B93142000166869 /* PopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3656251B93142000166869 /* PopCollectionViewCell.swift */; };
+		0B3656281B93144100166869 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3656271B93144100166869 /* PopViewController.swift */; };
 		D63F4F5C1B8C1C150012C54B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63F4F5B1B8C1C150012C54B /* CollectionViewCell.swift */; };
 		D686C3CE1B798A5C00AA0305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686C3CD1B798A5C00AA0305 /* AppDelegate.swift */; };
 		D686C3D01B798A5C00AA0305 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686C3CF1B798A5C00AA0305 /* ViewController.swift */; };
@@ -32,6 +36,10 @@
 /* Begin PBXFileReference section */
 		0B36561C1B8B7FB000166869 /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 		0B36561E1B8B805B00166869 /* ViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewLayout.swift; sourceTree = "<group>"; };
+		0B3656211B9313DA00166869 /* CustomViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewLayout.swift; sourceTree = "<group>"; };
+		0B3656231B93140400166869 /* AnimationAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationAttributes.swift; sourceTree = "<group>"; };
+		0B3656251B93142000166869 /* PopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopCollectionViewCell.swift; sourceTree = "<group>"; };
+		0B3656271B93144100166869 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 		5153CC1A99E3B929B7D6BBD6 /* Pods_padashiDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_padashiDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF075FCE5000D89911C49C8 /* Pods-padashiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-padashiDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-padashiDemo/Pods-padashiDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D63F4F5B1B8C1C150012C54B /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -68,6 +76,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B3656201B93139500166869 /* popout */ = {
+			isa = PBXGroup;
+			children = (
+				0B3656211B9313DA00166869 /* CustomViewLayout.swift */,
+				0B3656231B93140400166869 /* AnimationAttributes.swift */,
+				0B3656251B93142000166869 /* PopCollectionViewCell.swift */,
+				0B3656271B93144100166869 /* PopViewController.swift */,
+			);
+			name = popout;
+			sourceTree = "<group>";
+		};
 		CABFBEF8BB8D29A7898E4DB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +119,7 @@
 		D686C3CA1B798A5C00AA0305 /* padashiDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0B3656201B93139500166869 /* popout */,
 				D686C3CD1B798A5C00AA0305 /* AppDelegate.swift */,
 				D686C3CF1B798A5C00AA0305 /* ViewController.swift */,
 				D63F4F5B1B8C1C150012C54B /* CollectionViewCell.swift */,
@@ -298,9 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B3656241B93140400166869 /* AnimationAttributes.swift in Sources */,
 				D63F4F5C1B8C1C150012C54B /* CollectionViewCell.swift in Sources */,
+				0B3656281B93144100166869 /* PopViewController.swift in Sources */,
 				0B36561F1B8B805B00166869 /* ViewLayout.swift in Sources */,
 				0B36561D1B8B7FB000166869 /* testViewController.swift in Sources */,
+				0B3656261B93142000166869 /* PopCollectionViewCell.swift in Sources */,
+				0B3656221B9313DA00166869 /* CustomViewLayout.swift in Sources */,
 				D686C3D01B798A5C00AA0305 /* ViewController.swift in Sources */,
 				D686C3CE1B798A5C00AA0305 /* AppDelegate.swift in Sources */,
 			);

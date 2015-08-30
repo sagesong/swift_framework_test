@@ -16,6 +16,7 @@ class testViewController: UIViewController,UICollectionViewDataSource,UICollecti
     override func viewDidLoad() {
         super.viewDidLoad()
         var layout : ViewLayout = ViewLayout()
+        modles = [String]()
         layout.modlesArray = modles
         collection = UICollectionView(frame: CGRectZero, collectionViewLayout: layout)
         collection?.dataSource = self
@@ -43,6 +44,7 @@ class testViewController: UIViewController,UICollectionViewDataSource,UICollecti
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
+        
         modles = ["handsome","good","big","sb","jijiji","帅哥"]
     }
 

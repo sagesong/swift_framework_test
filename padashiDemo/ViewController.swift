@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         print("camera btn clicked")
 //        var cameraController = CameraViewController()
 //        self.presentViewController(cameraController, animated: true, completion: nil)
-        var test = testViewController()
+        var test = PopViewController()
         self.presentViewController(test, animated: true, completion: nil)
     }
     
