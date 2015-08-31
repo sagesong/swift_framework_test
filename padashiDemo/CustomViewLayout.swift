@@ -10,7 +10,7 @@ import UIKit
 
 class CustomViewLayout: UICollectionViewLayout {
     var cellCount : Int?
-    
+    var controller : UIViewController?
     override func prepareLayout() {
         super.prepareLayout()
         cellCount = self.collectionView!.numberOfItemsInSection(0)
@@ -41,16 +41,25 @@ class CustomViewLayout: UICollectionViewLayout {
     }
     
     override func initialLayoutAttributesForAppearingItemAtIndexPath(itemIndexPath: NSIndexPath) -> UICollectionViewLayoutAttributes? {
-        let attr = AnimationAttributes()
+//        let attr : AnimationAttributes = super.initialLayoutAttributesForAppearingItemAtIndexPath(itemIndexPath) as! AnimationAttributes
+        let attr = layoutAttributesForItemAtIndexPath(itemIndexPath) as! AnimationAttributes
         attr.size = CGSizeMake(80, 30)
         attr.center = CGPoint(x: self.collectionView!.frame.size.width + CGFloat(-100), y: CGFloat(30 * (itemIndexPath.item % 5 + 1)))
-        attr.animation = CABasicAnimation(keyPath: "transform")
+        let animation = CABasicAnimation(keyPath: "transform")
 //        attr.animation?.keyPath = "transform"
-        attr.animation?.duration = 2
-        attr.animation?.removedOnCompletion = false
-        attr.animation?.fillMode = kCAFillModeForwards
-        attr.animation?.fromValue = NSValue(CATransform3D: CATransform3DMakeTranslation(0, 0, 0))
-        attr.animation?.toValue = NSValue(CATransform3D: CATransform3DMakeTranslation(-self.collectionView!.frame.size.width - 80, 0, 0))
+//        animation?.duration = Double(itemIndexPath.item % 5 + 3)
+        animation?.duration = Double(arc4random_uniform(3)+2)
+
+        animation?.removedOnCompletion = false
+        animation?.fillMode = kCAFillModeForwards
+        animation?.fromValue = NSValue(CATransform3D: CATransform3DMakeTranslation(0, 0, 0))
+        animation?.toValue = NSValue(CATransform3D: CATransform3DMakeTranslation(-self.collectionView!.frame.size.width - 80, 0, 0))
+        attr.animation = animation
+        animation.delegate = controller!
         return attr;
+    }
+    
+    override class func layoutAttributesClass() -> AnyClass {
+        return AnimationAttributes.self
     }
 }

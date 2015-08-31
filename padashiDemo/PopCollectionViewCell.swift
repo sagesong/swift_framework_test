@@ -24,10 +24,6 @@ class PopCollectionViewCell: UICollectionViewCell {
         lable!.snp_makeConstraints { (make) -> Void in
             make.edges.equalTo(self)
         }
-        block = {
-            (one : Int ) in
-            print("\(one)")
-        }
     }
     
     required init(coder aDecoder: NSCoder) {
@@ -36,6 +32,7 @@ class PopCollectionViewCell: UICollectionViewCell {
     
     override func applyLayoutAttributes(layoutAttributes: UICollectionViewLayoutAttributes!) {
         let animation = layoutAttributes as! AnimationAttributes
-        self.layer.addAnimation(animation.animation, forKey: "transform")
+        self.layer.addAnimation(animation.animation, forKey: "layoutAnimation")
+        
     }
 }

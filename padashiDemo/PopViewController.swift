@@ -11,10 +11,12 @@ import UIKit
 class PopViewController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate {
     var collection : UICollectionView?
     var modles : Array<String>?
+    var isInsert : Bool = false
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.whiteColor()
         let layout = CustomViewLayout()
+        layout.controller = self
         collection = UICollectionView(frame: CGRectZero, collectionViewLayout: layout)
         collection?.center = self.view.center
         collection?.bounds = CGRectMake(0, 0, self.view.bounds.width, 300)
@@ -67,8 +69,37 @@ class PopViewController: UIViewController,UICollectionViewDataSource,UICollectio
 
 //            }
         }, completion: { (completion) -> Void in
-            
+            print("finished")
         })
 
+    }
+    
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+        let newArray = ["handsome","good","jjjjj","iiiii"]
+        if isInsert {
+            var array = [NSIndexPath]()
+            for i in modles!.count..<newArray.count+modles!.count{
+                let indexPath = NSIndexPath(forItem: i , inSection: 0)
+                array.append(indexPath)
+            }
+            modles =  newArray + modles!
+            collection?.performBatchUpdates({ () -> Void in
+                self.collection?.insertItemsAtIndexPaths(array)
+                }, completion: { (completion) -> Void in
+                    print("finished")
+            })
+            isInsert = false
+        } else {
+            var array = [NSIndexPath]()
+            for i in modles!.count..<newArray.count+modles!.count{
+                let indexPath = NSIndexPath(forItem: i , inSection: 0)
+                array.append(indexPath)
+            }
+        }
+        
+    }
+    
+    override func animationDidStop(anim: CAAnimation!, finished flag: Bool) {
+        print("animation stop")
     }
 }

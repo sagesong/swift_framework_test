@@ -17,6 +17,7 @@ class AnimationAttributes: UICollectionViewLayoutAttributes {
     }
     
     override func isEqual(object: AnyObject?) -> Bool {
+        
         if self === object {
             return true
         }
@@ -31,7 +32,21 @@ class AnimationAttributes: UICollectionViewLayoutAttributes {
             return false
         }
         return true
+
+//        if let object = object as? AnimationAttributes {
+//            if let animation = animation {
+//                let returnValue = animation.isEqual(object.animation)
+//                return returnValue
+//            } else {
+//                return false
+//            }
+//        } else {
+//            return false
+//        }
     }
     
+    override var hash: Int {
+        return self.animation!.hashValue
+    }
     
 }
